@@ -1,0 +1,33 @@
+https://chachocool.com/como-instalar-lamp-en-debian-11-bullseye/
+
+1. Instalar el lamp
+
+* apt-get update
+
+* sudo apt install -y apache2 libapache2-mod-php php php-mysql mariadb-server
+
+* sudo ufw allow http
+
+* sudo ufw allow https
+
+* sudo nano /var/www/html/info.php
+
+    `<?php phpinfo();`
+
+* nano prueba.php
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exemple</title>
+	</head>
+	<body>
+
+		<?php
+			echo "Hola, soc un script de PHP!";
+		?>
+
+	</body>
+</html>
+```
