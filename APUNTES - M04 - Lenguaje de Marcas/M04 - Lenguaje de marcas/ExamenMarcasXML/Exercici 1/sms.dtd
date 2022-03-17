@@ -1,0 +1,7 @@
+<!ELEMENT servidor (sms+)>
+<!ELEMENT sms (num_telf,data_enviament,hora_enviament,contingut_sms)>
+<!ATTLIST sms id ID #REQUIRED>
+<!ELEMENT num_telf (#PCDATA)>
+<!ELEMENT data_enviament (#PCDATA)>
+<!ELEMENT hora_enviament (#PCDATA)>
+<!ELEMENT contingut_sms (#PCDATA)>

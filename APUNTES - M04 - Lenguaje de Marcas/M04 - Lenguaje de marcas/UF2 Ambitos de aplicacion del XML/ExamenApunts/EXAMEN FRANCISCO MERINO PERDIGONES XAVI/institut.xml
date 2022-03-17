@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persones>
+  <alumne>
+	<preu tipo="credit">8</preu>
+    <nom>Federicu Pi</nom>
+    <any>2010</any>
+    <credits>
+      <assignatura>XML</assignatura>
+      <assignatura>Xarxes Locals</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+	<preu tipo="credit">28</preu>
+    <nom>Marcelinu Paivinu</nom>
+    <any>2010</any>
+    <credits>
+      <assignatura>Xarxes Locals</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+	<preu tipo="credit">18</preu>
+    <nom>Filomeno Garcia</nom>
+    <any>2010</any>
+    <credits>
+      <assignatura>Programació</assignatura>
+      <assignatura>Xarxes Locals</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+	<preu tipo="hores">60</preu>
+    <nom>Eustaquio Pons</nom>
+    <any>2009</any>
+    <credits>
+      <assignatura>XML</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+	<preu tipo="hores">10</preu>
+    <nom>Tomeu Bonys</nom>
+    <any>2009</any>
+    <credits>
+      <assignatura>XML</assignatura>
+      <assignatura>Programació</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+	<preu tipo="hores">50</preu>
+    <nom>Bernat Garengou</nom>
+    <any>2010</any>
+    <credits>
+      <assignatura>XML</assignatura>
+      <assignatura>Xarxes Locals</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+	<preu tipo="hores">8</preu>
+    <nom>Pere Nou</nom>
+    <any>2010</any>
+    <credits>
+      <assignatura>Programació</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+    <preu tipo="hores">60</preu>
+    <nom>Bill Garcia</nom>
+    <any>2010</any>
+    <credits>
+      <assignatura>XML</assignatura>
+      <assignatura>Programació</assignatura>
+      <assignatura>Xarxes Locals</assignatura>
+    </credits>
+  </alumne>
+</persones>

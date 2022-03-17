@@ -1,0 +1,89 @@
+body {
+    background-color: #6600FF;
+}
+body > div {
+    background-color: #006600;
+    border: 3px solid white;
+    margin: 0.5em;
+    padding: 0.5em; 
+}
+#div1 {
+    background-color: #CC33FF;
+    border: 3px solid white;
+    margin: 0.5em;
+    padding: 0.5em; 
+}
+#div2 {
+    background-color: #99FF66;
+    border: 3px solid white;
+    margin: 0.5em;
+    padding: 0.5em; 
+}
+.d2 {
+    border: 3px solid white;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: #CC9933;
+}
+.green {
+    background-color: #00FF00;
+}
+.bold {
+    font-weight: bold;
+}
+.d3 {
+    background-color: #FF9900;
+    border: 3px solid white;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.yellow {
+    background-color: #FFFF00;
+}
+body > div > div + div + div > ul > li + li {
+    padding-bottom: 20px;
+}
+body > div > div + div + div > ul > li + li + li {
+    padding-bottom: 2px;
+}
+div.d4 {
+    background-color: #AAAAAA;
+    border: 3px solid white;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+div.d5 {
+    background-color: #FFFFFF;
+    border: 3px solid white;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+div.d6 {
+    background-color: #CC33FF;
+    border: 3px solid white;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+div.d7 {
+    background-color: #FFFFFF;
+    border: 3px solid white;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+div.d8 {
+    background-color: #AAAAAA;
+    border: 3px solid white;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.greenborder {
+    border: 10px solid green; 
+}
+#bold1 {
+    font-weight: bold;
+    background-color: #FFFF00;
+}
+#bold2 {
+    background-color: white;
+    font-weight: bold;
+}

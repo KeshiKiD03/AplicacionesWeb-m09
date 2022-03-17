@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="libros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="libreria" type="tlibreria" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+  <xs:complexType name="tlibreria">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string" />
+      <xs:element name="libro" type="tlibro" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="tlibro">
+    <xs:sequence>
+      <xs:element name="codigo" type="tcodigo" />
+      <xs:element name="titulo" type="xs:string" />
+      <xs:element name="nivel" type="xs:string" />
+      <xs:element name="autor" type="tautor" />
+      <xs:element name="editorial" type="teditorial" />
+      <xs:element name="fecha_publicacion" type="xs:date" minOccurs="0" maxOccurs="2"/>
+    </xs:sequence>
+  </xs:complexType>
+
+<xs:simpleType name="tcodigo"> // Se define fuera para que sea más legible
+  <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{8}"/> // Hasta 8 veces y del 0 al 9
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tautor"> // Se define fuera para que sea más legible
+  <xs:restriction base="xs:string">
+    <xs:maxInclusive value="50" />
+    <xs:minInclusive value="1" />
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="teditorial"> // Se define fuera para que sea más legible
+  <xs:restriction base="xs:string">
+    <xs:maxInclusive value="50" />
+    <xs:minInclusive value="1" />
+  </xs:restriction>
+</xs:simpleType>

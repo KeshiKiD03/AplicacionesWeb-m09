@@ -1,0 +1,27 @@
+#DivGeneral {
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    border: outset black 5px;
+}
+#DPer {
+
+}
+#DPro {
+    
+}
+#Cont {
+    
+}
+#Field1 {
+    border: outset #AB3A3A 4px;
+    width: 26%;
+}
+#Field2 {
+    border: outset black 4px;
+    width: 18%;
+}
+#Field3 {
+    border: outset black 4px;
+    width: 10%;
+}

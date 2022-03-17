@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE junta SYSTEM "junta.dtd" >
+<junta>
+  <persona nom="Luke" cognom="Skywalker" carrec="President">
+    <portal num="1">
+      <pis>5</pis>
+      <lletra>A</lletra>
+    </portal>
+    <codi_cc id_cc="A8X" >1026996541Y</codi_cc>
+  </persona>
+
+  <persona nom="Darth" cognom="Vader" carrec="Vice President">
+    <portal num="2">
+      <pis>3</pis>
+      <lletra>B</lletra>
+    </portal>
+    <codi_cc id_cc="A9X">1027896541T</codi_cc>
+  </persona>
+
+  <persona nom="Han" cognom="Solo" carrec="Secretari">
+    <portal num="3">
+      <pis>8</pis>
+      <lletra>Z</lletra>
+    </portal>
+    <codi_cc >2345996541S</codi_cc>
+  </persona>
+
+  <persona nom="Leia" cognom="Organa" carrec="Vocal">
+    <portal num="4">
+      <pis>10</pis>
+      <lletra>B</lletra>
+    </portal>
+    <codi_cc id_cc="A10X">3657896541C</codi_cc>
+  </persona>
+
+  <persona nom="Obi Wan" cognom="Kenobi" carrec="Cap">
+    <portal num="5">
+      <pis>8</pis>
+      <lletra>Y</lletra>
+    </portal>
+    <codi_cc id_cc="A11X">4557896987B</codi_cc>
+  </persona>
+</junta>

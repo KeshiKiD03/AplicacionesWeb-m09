@@ -1,0 +1,19 @@
+html{
+	text-align: 10px;
+}
+table{
+	border: 1px solid black;
+}
+.mas75{
+	color: #0000FF;
+}
+.menos25{
+	color: #FF0000;
+}
+th{
+	background-color: #A9A9A9;
+	border: 1px solid black;
+}
+td{
+	border: 1px solid black;
+}

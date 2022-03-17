@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="institut.xsl"?>
+<persones>
+  <professor>
+       <nom>Pere Garcia</nom>
+        <assignatura>XML</assignatura>
+        <foto>https://fotofigaredo.files.wordpress.com/2015/01/foto-carnet.jpg</foto>
+  </professor>
+  <professor>
+       <nom>Joan Perdut</nom>
+       <assignatura>Xarxes Locals</assignatura>
+       <foto>http://files.investigacionarjonillaromana.webnode.es/system_preview_detail_200000085-53fc855f1e-public/Foto%20carnet.JPG</foto>
+  </professor>
+  <professor>
+       <nom>Johannes Wirth</nom>
+       <assignatura>Programació</assignatura>
+       <foto>https://fjgsmultimedia.files.wordpress.com/2015/05/foto-carnet.jpg</foto>
+  </professor>
+  <alumne>
+    <nom>Federicu Pi</nom>
+    <poblacio>Barcelona</poblacio>
+    <any>2010</any>
+    <credits>
+      <assignatura>XML</assignatura>
+      <assignatura>Xarxes Locals</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+    <nom>Marcelinu Paivinu</nom>
+    <poblacio>L'Hospitalet</poblacio>
+    <any>2010</any>
+    <credits>
+      <assignatura>Xarxes Locals</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+    <nom>Filomeno Garcia</nom>
+    <poblacio>Barcelona</poblacio>
+    <any>2010</any>
+    <credits>
+      <assignatura>Programació</assignatura>
+      <assignatura>Xarxes Locals</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+    <nom>Eustaquio Pons</nom>
+    <poblacio>Badalona</poblacio>
+    <any>2009</any>
+    <credits>
+      <assignatura>XML</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+    <nom>Tomeu Bonys</nom>
+    <poblacio>Barcelona</poblacio>
+    <any>2009</any>
+    <credits>
+      <assignatura>XML</assignatura>
+      <assignatura>Programació</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+    <nom>Bernat Garengou</nom>
+    <poblacio>L'Hospitalet</poblacio>
+    <any>2010</any>
+    <credits>
+      <assignatura>XML</assignatura>
+      <assignatura>Xarxes Locals</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+    <nom>Pere Nou</nom>
+    <poblacio>Badalona</poblacio>
+    <any>2010</any>
+    <credits>
+      <assignatura>Programació</assignatura>
+    </credits>
+  </alumne>
+  <alumne>
+    <nom>Bill Garcia</nom>
+    <any>2010</any>
+    <credits>
+      <assignatura>XML</assignatura>
+      <assignatura>Programació</assignatura>
+      <assignatura>Xarxes Locals</assignatura>
+    </credits>
+  </alumne>
+</persones>

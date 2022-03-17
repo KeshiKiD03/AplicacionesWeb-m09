@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE expedientes SYSTEM "exp.dtd">
+
+<mejores_expedientes>
+ <curso>2015-2016</curso>
+ <nominstituto>IES Proven</nominstituto>
+ <ciclos>
+    <ciclo tutor="Dani_Molla">
+      <nom>DAW</nom>
+      <alumne>
+        <dades_personals>
+          <nomapellido>Aaron Andal</nomapellido>
+          <dni>347856785Y</dni>
+          <correo>aaronandal@gmail.com</correo>
+          <telefono></telefono>
+        </dades_personals>
+        <dades_academiques>
+          <moduls>
+            <modul nom="M04" nota="10" />
+          </moduls>
+          <tutor idtutor="Dani_Molla"></tutor>
+          <nota_media></nota_media>
+        </dades_academiques>
+      </alumne>
+    </ciclo>
+  </ciclos>
+
+ <ciclos>
+    <ciclo tutor="Anakin_Skywalker">
+      <nom>DAM</nom>
+      <alumne>
+        <dades_personals>
+          <nomapellido>Luke Skywalker</nomapellido>
+          <correo>lukeskywalker@gmail.com</correo>
+          <telefono></telefono>
+        </dades_personals>
+        <dades_academiques>
+          <moduls>
+            <modul nom="M08" nota="10" />
+          </moduls>
+          <tutor idtutor="Anakin Skywalker"></tutor>
+          <nota_media></nota_media>
+        </dades_academiques>
+      </alumne>
+    </ciclo>
+  </ciclos>
+
+ <ciclos>
+    <ciclo tutor="Qui_Gon">
+      <nom>ASIX</nom>
+      <alumne>
+        <dades_personals>
+          <nomapellido>Obi Wan</nomapellido>
+          <correo>obiwan@gmail.com</correo>
+          <telefono></telefono>
+        </dades_personals>
+        <dades_academiques>
+          <moduls>
+            <modul nom="M02" nota="10" />
+          </moduls>
+          <tutor idtutor="Qui_Gon"></tutor>
+          <nota_media></nota_media>
+        </dades_academiques>
+      </alumne>
+    </ciclo>
+  </ciclos>
+
+ <ciclos>
+    <ciclo tutor="Darth_Vader">
+      <nom>DAM</nom>
+      <alumne>
+        <dades_personals>
+          <nomapellido>Kylo Ren</nomapellido>
+          <correo>kyloren@gmail.com</correo>
+          <telefono></telefono>
+        </dades_personals>
+        <dades_academiques>
+          <moduls>
+            <modul nom="M04" nota="10" />
+          </moduls>
+          <tutor idtutor="Darth_Vader"></tutor>
+          <nota_media></nota_media>
+        </dades_academiques>
+      </alumne>
+    </ciclo>
+  </ciclos>
+
+</mejores_expedientes>
+

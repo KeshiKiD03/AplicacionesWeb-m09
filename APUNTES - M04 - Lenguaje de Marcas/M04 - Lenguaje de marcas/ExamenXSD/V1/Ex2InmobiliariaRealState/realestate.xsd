@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xs:simpleType name="pobox">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="|0-9||5|"/> 
+  </xs:restriction>
+</xs:simpleType>
+
+  <xs:complexType name="taddress">
+    <xs:sequence>
+      <xs:element name="street" type="xs:string"/>
+      <xs:element name="number" type="xs:integer"/>
+      <xs:element name="floor" type="xs:integer"/> 
+      <xs:element name="door" type="xs:string"/>
+      <xs:element name="pobox" type="tpobox"/> 
+    </xs:sequence>  
+  </xs:complexType>
+    
+  <xs:complexType name="testate">
+    <xs:sequence>
+      <xs:element name="address" type="address"/>
+      <xs:element name="price" type="xs:float"/>
+      <xs:element name="surface" type="xs:float"/> 
+      <xs:element name="baths" type="xs:integer"/>
+      <xs:element name="balcony" type="xs:float"/> 
+    </xs:sequence>
+    <xs:attribute name="type" type="xs:string" use="required"/>
+  </xs:complexType>
+
+
+<xs:element name="realestate">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="street" type="xs:string"/>
+      <xs:element name="number" type="xs:integer"/>
+      <xs:element name="floor" type="xs:integer"/> 
+      <xs:element name="door" type="xs:string"/>
+      <xs:element name="pobox" type="xs:string"/> 
+    </xs:sequence>  
+  </xs:complexType>
+</xs:element>
+
+  
+</xs:schema>

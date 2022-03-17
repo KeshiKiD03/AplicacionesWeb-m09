@@ -1,0 +1,21 @@
+<!ELEMENT mejores_expedientes (curso, nominstituto, ciclos)>
+<!ELEMENT curso (#PCDATA)>
+<!ELEMENT nominstituto (#PCDATA)>
+<!ELEMENT ciclos (ciclo+)>
+<!ELEMENT ciclo (nom, alumne+)>
+<!ATTLIST ciclo tutor ID #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT alumne (dades_personals+, dades_academiques+)>
+<!ELEMENT dades_personals (nomapellido, dni, correo, telefono)>
+<!ATTLIST dni identificador NMTOKEN #IMPLIED>
+<!ELEMENT nomapellido (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT dades_academiques (moduls+, tutor, nota_media)>
+<!ELEMENT moduls (modul)>
+<!ATTLIST modul nom ID #REQUIRED nota ID #REQUIRED>
+<!ELEMENT tutor (#PCDATA)>
+<!ATTLIST tutor idtutor IDREFS #REQUIRED>
+<!ELEMENT nota_media (#PCDATA)>
+<!ATTLIST document versio CDATA #FIXED "1.0">
+<!ATTLIST document codificacio NMTOKEN #DEFAULT "UTF-8">

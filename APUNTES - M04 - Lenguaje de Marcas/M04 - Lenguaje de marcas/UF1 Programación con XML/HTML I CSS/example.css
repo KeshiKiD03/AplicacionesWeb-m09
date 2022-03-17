@@ -1,0 +1,24 @@
+body > h2 {
+    background-color: red;
+}
+
+div > h2 {
+    background-color: blue;
+}
+
+h2 {
+    color: white;
+}
+
+div > p > a {
+    background-color: orange;
+}
+
+h2+p>a {
+    font-size: 40px;
+}
+
+div > div > p > a {
+    background-color: green;
+}
+

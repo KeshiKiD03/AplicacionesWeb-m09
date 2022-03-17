@@ -1,0 +1,43 @@
+
+#################
+#Exemple  array #
+################
+
+
+@noms= ("Carlos", "David", "Ramon", "Marian", "Vicente", "Marisa", "Juan");
+
+
+print "Noms que hi ha al array:\n";
+
+foreach $nom (@noms)
+{
+    print "$nom\n" ;
+}
+
+################
+# Exemple hash #
+###############
+
+%assignatures= ("Carlos" => "M4", "David" => "M3", "Ramon" => "M11", "Marian" => "M08", "Vicente" => "M02");
+
+#Mostra tots els professors i l'assignatura que donen
+
+foreach $key (sort keys %assignatures )
+{
+  print "Profe: $key Asignatura: $assignatures{$key}\n";
+}
+
+#Quina assignatura dona ramon?
+
+print "$assignatures{'Ramon'}\n";
+
+
+# Canviem l'assignatura de Marian a M05
+
+$assignatures{"Marian"}="M05";
+print "$assignatures{'Marian'}\n";
+
+
+
+
+

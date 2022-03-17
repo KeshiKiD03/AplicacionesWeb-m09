@@ -1,0 +1,24 @@
+<!ELEMENT inmobiliaria (dades_inmobiliaria, pisos+)>
+
+<!ELEMENT dades_inmobiliaria (nom,direccio1, telefon, cif)>
+
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT direccio1 (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT cif (#PCDATA)>
+
+<!ELEMENT pisos (direccio, ubicacio, porta, habitacio, cuina, terrassa, ascensor, sala_destar, lavabo, oficina, moble)>
+
+<!ATTLIST  pisos pis CDATA #REQUIRED>
+
+<!ELEMENT direccio (#PCDATA)>
+<!ELEMENT ubicacio (#PCDATA)>
+<!ELEMENT porta (#PCDATA)>
+<!ELEMENT habitacio (#PCDATA)>
+<!ELEMENT cuina (#PCDATA)>
+<!ELEMENT terrassa (#PCDATA)>
+<!ELEMENT ascensor (#PCDATA)>
+<!ELEMENT sala_destar (#PCDATA)>
+<!ELEMENT lavabo (#PCDATA)>
+<!ELEMENT oficina (#PCDATA)>
+<!ELEMENT moble (#PCDATA)>

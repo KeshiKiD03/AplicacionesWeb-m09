@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:/Users/Alumne/Desktop/agenda.xsd">
+    <contacte>
+      <nom>Carles</nom>
+      <cognoms>Latorre</cognoms>
+      <DNI>12345678-Z</DNI>
+      <telefon>623456789</telefon>
+      <adreça>
+        <via>Carrer</via>
+        <nomvia>Major</nomvia>
+        <numero>1</numero>
+        <pis>1</pis>
+        <porta>a</porta>
+        <poblacio>Mataro</poblacio>
+        <codipostal>08302</codipostal>
+      </adreça>
+    </contacte>
+</agenda>

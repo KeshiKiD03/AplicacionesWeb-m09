@@ -1,0 +1,19 @@
+<!ELEMENT sis_nacions (dia+)>
+<!ELEMENT dia (partido+)>
+<!ATTLIST  dia round CDATA #REQUIRED>
+<!ELEMENT partido (equipo+)>
+<!ATTLIST  partido numero CDATA #REQUIRED>
+<!ELEMENT equipo (nombre_equipo,puntos)>
+<!ELEMENT puntos (anotadores+)>
+<!ELEMENT anotadores (nom,cognoms,puntos_totales)>
+<!ATTLIST  anotadores jugador CDATA #REQUIRED>
+<!ELEMENT puntos_totales (try,try_penal,drop_penal,goal,convercion)>
+
+<!ELEMENT nombre_equipo (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognoms (#PCDATA)>
+<!ELEMENT try (#PCDATA)>
+<!ELEMENT try_penal (#PCDATA)>
+<!ELEMENT drop_penal (#PCDATA)>
+<!ELEMENT goal (#PCDATA)>
+<!ELEMENT convercion (#PCDATA)>

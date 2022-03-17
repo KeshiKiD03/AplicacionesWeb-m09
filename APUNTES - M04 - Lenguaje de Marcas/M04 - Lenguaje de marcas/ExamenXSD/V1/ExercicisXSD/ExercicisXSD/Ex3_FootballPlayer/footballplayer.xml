@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<playerdb xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="realestate.xsd">
+    <player>
+        <properties>
+              <dateofbirth></dateofbirth>
+              <position></position>
+              <salary></salary>
+              <team></team>
+              <endofcontract></endofcontract>
+        </properties>
+        <stats>
+            <round date="">
+                <minutes></minutes>
+                <goals></goals>
+                <called></called>
+            </round>
+        </stats>
+    </player>
+
+</playerdb>

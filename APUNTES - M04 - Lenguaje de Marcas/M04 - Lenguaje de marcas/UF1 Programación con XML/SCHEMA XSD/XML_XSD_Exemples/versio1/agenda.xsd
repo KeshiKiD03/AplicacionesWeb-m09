@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xs:simpleType    name="any_naixement">
+  <xs:restriction base="xs:integer">
+    <xs:maxInclusive value="2015"/>
+    <xs:minInclusive value="1850"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="persona">
+    <xs:sequence>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="cognoms" type="xs:string"/>
+        <xs:element name="naixement" type="any_naixement"/>
+    </xs:sequence> 
+</xs:complexType>
+  
+  <xs:element name="agenda">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="contacte" type="persona" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

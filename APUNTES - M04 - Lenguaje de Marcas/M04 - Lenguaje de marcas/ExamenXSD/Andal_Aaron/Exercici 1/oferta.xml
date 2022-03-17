@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<oferta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="oferta.xsd">
+      <vehiculo>
+          <marca>seat</marca>
+          <modelo color="negro">ibiza</modelo>
+          <motor combustible="diesel"></motor>
+          <matricula>1234AAA</matricula>
+          <kilometros>25000</kilometros>
+          <precio_inicial>99999.99</precio_inicial>
+          <precio_oferta>12345.67</precio_oferta>
+          <extra valor="250">pintura metalizada</extra>
+          <extra valor="300">llantas</extra>
+          <foto>foto1.jpg</foto>
+          <foto>foto2.jpg</foto>
+      </vehiculo>
+      <vehiculo>
+          <marca>ford</marca>
+          <modelo color="blanco">focus</modelo>
+          <motor combustible="gasolina"></motor>
+          <matricula>2345BBB</matricula>
+          <kilometros>75000</kilometros>
+          <precio_inicial>12345.67</precio_inicial>
+          <precio_oferta>99999.99</precio_oferta>
+          <extra valor="250">pintura metalizada</extra>
+          <extra valor="400">velocidad de crucero</extra>
+          <extra valor="500">climatizador</extra>
+          <foto>foto3.jpg</foto>
+          <foto>foto4.jpg</foto>
+      </vehiculo>
+</oferta>

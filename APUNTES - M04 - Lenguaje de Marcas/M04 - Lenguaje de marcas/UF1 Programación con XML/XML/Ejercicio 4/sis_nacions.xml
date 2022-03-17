@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sis_nacions SYSTEM "sis_nacions.dtd">
+<sis_nacions>
+  <dia round="1">
+    <partido numero="1">
+      <equipo>
+          <nombre_equipo></nombre_equipo>
+          <puntos>
+            <anotadores jugador="1">
+              <nom></nom>
+              <cognoms></cognoms>
+              <puntos_totales>
+                <try></try>
+                <try_penal></try_penal>
+                <drop_penal></drop_penal>
+                <goal></goal>
+                <convercion></convercion>
+              </puntos_totales>
+            </anotadores>
+          </puntos>      
+      </equipo>
+      
+      <equipo>
+          <nombre_equipo></nombre_equipo>
+          <puntos>
+            <anotadores jugador="1">
+              <nom></nom>
+              <cognoms></cognoms>
+              <puntos_totales>
+                <try></try>
+                <try_penal></try_penal>
+                <drop_penal></drop_penal>
+                <goal></goal>
+                <convercion></convercion>
+              </puntos_totales>
+            </anotadores>
+          </puntos>     
+      </equipo>    
+    </partido>
+  </dia>
+</sis_nacions>

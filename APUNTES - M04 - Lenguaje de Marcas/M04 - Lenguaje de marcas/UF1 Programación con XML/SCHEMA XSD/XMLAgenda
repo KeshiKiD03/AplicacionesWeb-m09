@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<agenda xlmns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="agenda.xsd">
+  <contacte>
+    <nom>Aaron</nom>
+    <cognoms>Andal</cognoms>
+    <DNI>36579183-Z</DNI>
+    <telefon>604152365</telefon>
+    <adreça>
+      <via>Carrer</via>
+      <nomvia>Major</nomvia>
+      <pis>1</pis>
+      <porta>A</porta>
+      <poblacio>Mataro</poblacio>
+      <codioistal>08302</codioistal>
+    </adreça>
+  </contacte>
+</agenda>

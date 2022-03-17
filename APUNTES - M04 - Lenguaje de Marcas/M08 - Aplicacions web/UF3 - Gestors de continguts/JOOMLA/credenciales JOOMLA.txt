@@ -1,0 +1,6 @@
+ID: superjoomla
+PD: igual
+---------------
+Joomla
+ID: admin
+pw: admin

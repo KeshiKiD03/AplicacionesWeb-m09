@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jugador SYSTEM "jugador.dtd">
+<jugador>
+  <dades_personals>
+    <nom></nom>  
+    <cognoms></cognoms>
+  </dades_personals>
+  <fitxa_tecnica>
+    <equip></equip>
+    <posicio></posicio>
+    <dorsal></dorsal>
+  </fitxa_tecnica>
+  <estadistiques jornada="1">
+    <convocat></convocat>
+    <minuts_jugats></minuts_jugats>
+    <gols></gols>
+  </estadistiques>
+    <estadistiques jornada="2">
+    <convocat></convocat>
+    <minuts_jugats></minuts_jugats>
+    <gols></gols>
+  </estadistiques>
+    <estadistiques jornada="3">
+    <convocat></convocat>
+    <minuts_jugats></minuts_jugats>
+    <gols></gols>
+  </estadistiques>
+    <estadistiques jornada="4">
+    <convocat></convocat>
+    <minuts_jugats></minuts_jugats>
+    <gols></gols>
+  </estadistiques>
+</jugador>

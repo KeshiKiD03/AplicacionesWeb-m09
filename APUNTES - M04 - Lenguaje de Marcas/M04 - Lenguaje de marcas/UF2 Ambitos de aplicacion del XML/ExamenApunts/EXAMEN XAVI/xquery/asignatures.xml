@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assignatures>
+<assignatura id="1">
+<nom>Química</nom>
+<preu tipo="crèdit">5</preu>
+<alumnes>20</alumnes>
+<inici>1/9/2012</inici>
+<fi>1/6/2013</fi>
+<professor>Jesús Piera</professor>
+<aula>21</aula>
+</assignatura>
+<assignatura id="2">
+<nom>Matemàtiques</nom>
+<preu tipo="hores">75</preu>
+<alumnes>35</alumnes>
+<inici>1/9/2012</inici>
+<fi>1/6/2013</fi>
+<professor>Antoni Rubio</professor>
+<aula>23</aula>
+</assignatura>
+<assignatura id="3">
+<nom>Física</nom>
+<preu tipo="hores">50</preu>
+<alumnes>17</alumnes>
+<inici>1/9/2012</inici>
+<fi>1/6/2013</fi>
+<professor>Juan Luis Corral</professor>
+<aula>24</aula>
+</assignatura>
+<assignatura id="4">
+<nom>Antenes</nom>
+<preu tipo="crèdit">5</preu>
+<alumnes>17</alumnes>
+<inici>1/9/2012</inici>
+<fi>1/6/2013</fi>
+<professor>Paco Ramos</professor>
+<aula>31</aula>
+</assignatura>
+<assignatura id="5">
+<nom>Microones</nom>
+<preu tipo="hores">50</preu>
+<alumnes>17</alumnes>
+<inici>1/9/2012</inici>
+<fi>1/6/2013</fi>
+<professor>Vicenç Almenar</professor>
+<aula>31</aula>
+</assignatura>
+<assignatura id="6">
+<nom>Bases de dades</nom>
+<preu tipo="crèdit">8</preu>
+<alumnes>17</alumnes>
+<inici>1/9/2012</inici>
+<fi>1/6/2013</fi>
+<professor>Juan Luis Corral</professor>
+<aula>53</aula>
+</assignatura>
+<assignatura id="7">
+<nom>Informàtica tridimensional</nom>
+<preu tipo="hores">75</preu>
+<alumnes>17</alumnes>
+<inici>1/9/2012</inici>
+<fi>1/6/2013</fi>
+<professor>Víctor Espionsa</professor>
+<aula>54</aula>
+</assignatura>
+<assignatura id="8">
+<nom>Comunicacions mòbils</nom>
+<preu tipo="hores">60</preu>
+<alumnes>17</alumnes>
+<inici>1/9/2012</inici>
+<fi>1/6/2013</fi>
+<professor>Xelo Part</professor>
+<aula>55</aula>
+</assignatura>
+</assignatures>

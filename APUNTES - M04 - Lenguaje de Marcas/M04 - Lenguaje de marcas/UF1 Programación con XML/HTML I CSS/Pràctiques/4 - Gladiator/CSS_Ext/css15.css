@@ -1,0 +1,73 @@
+body {
+    font-family: calibri;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    border: ridge black 1px;
+    height: 80px;
+    padding-top: 40px;
+    padding-left: 30px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+#Gradient1 {
+    background: -webkit-linear-gradient(left, red 1% , black 50%); /* For Safari */
+    background: -o-linear-gradient(right, red 1%, black 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red 1%, black 50%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, red 1%, black 50%); /* Standard syntax */
+} 
+
+h2 {
+    border: ridge black 1px;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    text-shadow: 2px 2px red;
+    animation: myfirst 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myfirst {
+    from {
+        background-color: black;
+    }
+    to {
+        background-color: #00BFFF;
+    }
+}
+
+.pelota {
+    position: fixed; 
+    right: 130px;
+    height: 300px;
+}
+
+.playa {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+#datos {
+    width: 100%;
+}
+
+tr > td {
+    border: ridge 1px;
+}
+
+#valid {
+    float: right;
+}
+

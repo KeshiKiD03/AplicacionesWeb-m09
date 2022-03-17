@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libros.xsd">
+      <libreria>
+          <nombre>Abacus</nombre>
+          <libro>
+                <codigo>1-AZ-123</codigo>
+                <titulo>Curso de XML</titulo>
+                <nivel grado="1">Basico</nivel>
+                <autor>Gregorio Martin</autor>
+                <editorial>Ra-Ma Editorial</editorial>
+                <fecha_publicacion>2014-01-31</fecha_publicacion>
+            </libro>
+            <libro>
+                <codigo>0-AA-000</codigo>
+                <titulo>XML (Edicion revisada y ampliada)</titulo>
+                <nivel grado="6">Medio</nivel>
+                <autor>Oscar Gonzalez</autor>
+                <editorial>Editorial Planeta</editorial>
+            </libro>
+      </libreria>
+      <libreria>
+          <nombre>La casa del libro</nombre>
+          <libro>
+                <codigo>9-ZZ-999</codigo>
+                <titulo>XML: bases esenciales, conceptos y casos practicos</titulo>
+                <nivel grado="9">Avanzado</nivel>
+                <autor>Juan Diego Gutierrez Gallardo</autor>
+                <editorial> Grupo Anaya</editorial>
+                <fecha_publicacion>2015-12-01</fecha_publicacion>
+          </libro>
+      </libreria>
+</libros>

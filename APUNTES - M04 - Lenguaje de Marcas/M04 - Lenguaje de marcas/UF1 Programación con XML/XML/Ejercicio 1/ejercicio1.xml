@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona SYSTEM "ejercicio1.dtd">
+<persona >
+        <nombre DNI="416455">
+            <nombre_pila>Adrian</nombre_pila>
+            <apellido>Aguilar</apellido>
+        </nombre>
+        <ocupacion>Hago como que estudio</ocupacion>
+        <aficiones>
+          <aficion>Viciar</aficion>        
+        </aficiones>
+        <direccion>Mi casa</direccion>
+        <telefono>55555555</telefono>
+</persona>

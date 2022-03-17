@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="inmobiliaria.xsd">
+<inmobiliaria>
+  <dades_inmobiliaria>
+    <nom> </nom>
+    <direccio1> </direccio1>
+    <telefon> </telefon>
+    <cif> </cif>
+  </dades_inmobiliaria>
+  <pisos pis="1">
+    <direccio> </direccio>
+    <ubicacio> </ubicacio>
+    <porta> </porta>
+    <habitacio> </habitacio>
+    <cuina> </cuina>
+    <terrassa> </terrassa>
+    <ascensor> </ascensor>
+    <sala_destar> </sala_destar>
+    <lavabo> </lavabo>
+    <oficina> </oficina>
+    <moble> </moble>
+  </pisos>
+  <pisos pis="2">
+    <direccio> </direccio>
+    <ubicacio> </ubicacio>
+    <porta> </porta>
+    <habitacio> </habitacio>
+    <cuina> </cuina>
+    <terrassa> </terrassa>
+    <ascensor> </ascensor>
+    <sala_destar> </sala_destar>
+    <lavabo> </lavabo>
+    <oficina> </oficina>
+    <moble> </moble>
+  </pisos>
+  <pisos pis="3">
+    <direccio> </direccio>
+    <ubicacio> </ubicacio>
+    <porta> </porta>
+    <habitacio> </habitacio>
+    <cuina> </cuina>
+    <terrassa> </terrassa>
+    <ascensor> </ascensor>
+    <sala_destar> </sala_destar>
+    <lavabo> </lavabo>
+    <oficina> </oficina>
+    <moble> </moble>
+  </pisos>
+  <pisos pis="4">
+    <direccio> </direccio>
+    <ubicacio> </ubicacio>
+    <porta> </porta>
+    <habitacio> </habitacio>
+    <cuina> </cuina>
+    <terrassa> </terrassa>
+    <ascensor> </ascensor>
+    <sala_destar> </sala_destar>
+    <lavabo> </lavabo>
+    <oficina> </oficina>
+    <moble> </moble>
+  </pisos>
+  <pisos pis="5">
+    <direccio> </direccio>
+    <ubicacio> </ubicacio>
+    <porta> </porta>
+    <habitacio> </habitacio>
+    <cuina> </cuina>
+    <terrassa> </terrassa>
+    <ascensor> </ascensor>
+    <sala_destar> </sala_destar>
+    <lavabo> </lavabo>
+    <oficina> </oficina>
+    <moble> </moble>
+  </pisos>
+</inmobiliaria>

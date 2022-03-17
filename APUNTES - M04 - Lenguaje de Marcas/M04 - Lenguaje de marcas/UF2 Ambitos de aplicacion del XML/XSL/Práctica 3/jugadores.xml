@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="jugadores.xsl"?>
+<jugadores>
+<jugador>
+<equipo>FIATC JOVENTUT</equipo>
+<numero>0</numero>
+<nombre>Mallet, Demond </nombre>
+<posicion>B </posicion>
+<nacionalidad>USA </nacionalidad>
+<licencia>EXT </licencia>
+<altura>1.82 </altura>
+<edad>38</edad>
+<temporada>4</temporada>
+<foto>http://www.acb.com/fotos_cara/jugadores/JBEKLACB60.jpg</foto>
+</jugador>
+<jugador>
+<equipo>FIATC JOVENTUT</equipo>
+<numero>3</numero>
+<nombre>Sabat, Albert</nombre>
+<posicion>B </posicion>
+<nacionalidad>ESP </nacionalidad>
+<licencia>JFL </licencia>
+<altura>1.82 </altura>
+<edad>30</edad>
+<temporada>1</temporada>
+<foto>http://www.acb.com/fotos_cara/jugadores/JB2JLACB60.jpg</foto>
+</jugador>
+<jugador>
+<equipo>FIATC JOVENTUT</equipo>
+<numero>6</numero>
+<nombre>Vidal, Sergi </nombre>
+<posicion>E </posicion>
+<nacionalidad>ESP </nacionalidad>
+<licencia>JFL </licencia>
+<altura>1.98 </altura>
+<edad>34</edad>
+<temporada>3</temporada>
+<foto>http://www.acb.com/fotos_cara/jugadores/JA4BLACB60.jpg</foto>
+</jugador>
+<jugador>
+<equipo>FIATC JOVENTUT</equipo>
+<numero>9</numero>
+<nombre>Llovet, Nacho </nombre>
+<posicion>P </posicion>
+<nacionalidad>ESP </nacionalidad>
+<licencia>JFL </licencia>
+<altura>2.01 </altura>
+<edad>24</edad>
+<temporada>6</temporada>
+<foto>http://www.acb.com/fotos_cara/jugadores/JY7OLACB60.jpg</foto>
+</jugador>
+<jugador>
+<equipo>FIATC JOVENTUT</equipo>
+<numero>10</numero>
+<nombre>Miralles, Albert </nombre>
+<posicion>P </posicion>
+<nacionalidad>ESP </nacionalidad>
+<licencia>JFL </licencia>
+<altura>2.06 </altura>
+<edad>33</edad>
+<temporada>5</temporada>
+<foto>http://www.acb.com/fotos_cara/jugadores/JA3VLACB60.jpg</foto>
+</jugador>
+<jugador>
+<equipo>FIATC JOVENTUT</equipo>
+<numero>12</numero>
+<nombre>Suton, Goran </nombre>
+<posicion>F </posicion>
+<nacionalidad>HRV </nacionalidad>
+<licencia>EUR </licencia>
+<altura>2.08 </altura>
+<edad>30</edad>
+<temporada>2</temporada>
+<foto>http://www.acb.com/fotos_cara/jugadores/J1LMLACB60.jpg</foto>
+</jugador>
+<jugador>
+<equipo>FIATC JOVENTUT</equipo>
+<numero>14</numero>
+<nombre>Ventura, Albert </nombre>
+<posicion>E </posicion>
+<nacionalidad>ESP </nacionalidad>
+<licencia>JFL </licencia>
+<altura>1.92 </altura>
+<edad>23</edad>
+<temporada>6</temporada>
+<foto>http://www.acb.com/fotos_cara/jugadores/J718LACB60.jpg</foto>
+</jugador>
+<jugador>
+<equipo>FIATC JOVENTUT</equipo>
+<numero>16</numero>
+<nombre>Abalde, Alberto </nombre>
+<posicion>E </posicion>
+<nacionalidad>ESP </nacionalidad>
+<licencia>JFL </licencia>
+<altura>2.00 </altura>
+<edad>20</edad>
+<temporada>3</temporada>
+<foto>http://www.acb.com/fotos_cara/jugadores/J8C4LACB60.jpg</foto>
+</jugador>
+<jugador>
+<equipo>FIATC JOVENTUT</equipo>
+<numero>23</numero>
+<nombre>Drame, Ousmane </nombre>
+<posicion>P </posicion>
+<nacionalidad>GIN </nacionalidad>
+<licencia>COT </licencia>
+<altura>2.06 </altura>
+<edad>22</edad>
+<temporada>1</temporada>
+<foto>http://www.acb.com/fotos_cara/jugadores/JFPSLACB60.jpg</foto>
+</jugador>
+<jugador>
+<equipo>FIATC JOVENTUT</equipo>
+<numero>33</numero>
+<nombre>Paul, Brandon </nombre>
+<posicion>E </posicion>
+<nacionalidad>USA </nacionalidad>
+<licencia>EXT </licencia>
+<altura>1.93 </altura>
+<edad>24</edad>
+<temporada>1</temporada>
+<foto>http://www.acb.com/fotos_cara/jugadores/JFQDLACB60.jpg</foto>
+</jugador>
+<jugador>
+<equipo>FIATC JOVENTUT</equipo>
+<numero>50</numero>
+<nombre>Rakovic, Milovan </nombre>
+<posicion>P </posicion>
+<nacionalidad>SRB </nacionalidad>
+<licencia>EUR </licencia>
+<altura>2.08 </altura>
+<edad>31</edad>
+<temporada>1</temporada>
+<foto>http://www.acb.com/fotos_cara/jugadores/J224LACB60.jpg</foto>
+</jugador>
+</jugadores>

@@ -1,0 +1,10 @@
+<!ELEMENT botiga (categories,articles)>
+<!ELEMENT categories (categoria+)>
+<!ELEMENT categoria (nom, descripcio)>
+<!ATTLIST categoria idcat ID #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT descripcio (#PCDATA)>
+<!ELEMENT articles (article+)>
+<!ELEMENT article (nom, descripcio, preu)>
+<!ATTLIST article idart ID #REQUIRED idrcat IDREFS #REQUIRED>
+<!ELEMENT preu (#PCDATA)>

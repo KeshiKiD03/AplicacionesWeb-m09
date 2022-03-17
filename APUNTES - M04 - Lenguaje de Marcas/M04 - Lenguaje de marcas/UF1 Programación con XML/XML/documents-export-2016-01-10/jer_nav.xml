@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE botiga SYSTEM "navidad.dtd">
+<botiga>
+  <categories>
+    <categoria idcat="c01">
+      <nom>peix</nom>
+      <descripcio>peix que es troba ....</descripcio>
+    </categoria>
+  <!--   Article:-->
+  <!--            Identificador d'article:-->
+  <!--            Rferencia categoria:-->
+  <!--            Nom:-->
+  <!--            Descripcio/preu:-->
+
+  <!--   Categoria:-->
+  <!--            Identificador de categoia:-->
+  <!--            Nom:-->
+  <!--            Descripcio:-->
+      <categoria idcat="c02">
+      <nom>carn</nom>
+      <descripcio>carn que es troba ....</descripcio>
+    </categoria>
+  </categories>
+  <articles>
+    <article idart="a01" idrcat="c01">
+      <nom>roig</nom>
+      <descripcio>de riu</descripcio>
+      <preu>11</preu>
+    </article>
+    
+    <article idart="a02" idrcat="c02">
+      <nom>tendre</nom>
+      <descripcio>fresca</descripcio>
+      <preu>5</preu>
+    </article>
+  </articles>
+</botiga>

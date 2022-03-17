@@ -1,0 +1,77 @@
+#div1 {
+	background-color: red;
+	border-radius: 3em 1em;
+	text-align: center;
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+}
+h1 {
+    color: white;
+	font-family: calibri;
+	font-size: 60px;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+body{
+	background-image: url("unnamed.png");
+}
+html{
+	margin: 50px;
+	margin-top: 20px;
+}
+
+#jugador{
+	height: 600px;
+	width: 300px;
+	float: left;
+	margin: 10px;
+	text-align: center;
+	background-color: red;
+	border-radius: 3em 1em;
+    border-style: solid;
+    border-color: #0000ff #00ff00 #0000ff;
+    opacity: 0.9;
+    padding-right: 10px;
+}
+#datos{
+	height: 370px;
+	width: 310px;
+	float: left;
+	text-align: center;
+	font-family: calibri;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	text-shadow: 2px 2px 2px black;
+}
+#foto01 {
+	width: 150px; 
+	height: 180px;
+	border-radius: 3em 1em;
+}
+#foto {
+	margin-left: 75px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 150px; 
+	height: 190px;
+	float: left;	
+}
+
+
+

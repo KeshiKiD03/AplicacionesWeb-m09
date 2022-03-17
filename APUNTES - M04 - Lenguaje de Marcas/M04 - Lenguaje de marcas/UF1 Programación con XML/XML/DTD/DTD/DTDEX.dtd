@@ -1,0 +1,272 @@
+*******
+
+$$Enlazar xml con dtd
+Va en el xml para enlazarlo con el dtd.
+
+<!DOCTYPE alumnes SYSTEM "alumnes.dtd">
+*******
+
+*******
+$$CONTENIDO DE UN ELEMENTO: ELEMENT (ANY-EMPTY-#PCDATA)
+  // ANY --> Cualquiera | Empty --> Vacío | #PCDATA --> Hay algo escrito
+
+<!ELEMENT persona ANY>
+
+  <persona>Frederic Pi</persona>
+
+  OR
+  
+  <persona>
+ <nom>Frederic</nom>
+ <cognom>Pi</cognom>
+ </persona>
+ 
+ OR
+ 
+  </persones>
+ <persona>
+ <nom>Pere MartÃ­</nom>
+ <professor/>
+</persona>
+
+ <persona>
+ <nom>Marcel Peris</nom>
+ </persona>
+ </persones>
+
+<!ELEMENT professor EMPTY>
+
+<professor/>
+
+OR
+
+<professor></professor>
+
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+
+  <persona>
+  <nom>Marcel</nom>
+  <cognom>Puigdevall</nom>
+  </persona>
+
+*******
+
+*******
+
+$$SECUENCIA DE ELEMENTOS
+
+<!ELEMENT persona (nom,cognom)>***EL ORDEN ES IMPORTANTE
+
+  <persona>
+  <nom>Pere</nom>
+  <cognom>Martinez</cognom>
+  </persona>
+  
+&OPERADOR ALTERNATIVA
+
+  <!ELEMENT personal (treballador|president)>****UNA ETIQUETA U OTRA
+
+  OR
+    
+  <!ELEMENT personal (treballador|president|informÃ tic|gerent)>***NO HAY LIMITES
+    
+  OR
+  
+  <!ELEMENT alumne (delegat|EMPTY)>****SE PUEDE USAR CON EMPTY
+  
+  OR
+  
+  <!ELEMENT cercle (x,y,(radi|diametre))>****SE PUEDE HACER ESTA CONBINACION
+  
+  OR
+  
+  <!ELEMENT persona ((cognom,nom)|(nom,cognom))> ****SE PUEDE HACER ESTA CONBINACION
+
+
+******
+
+******
+
+$$MODIFICADORES:Especifica la cantidad de veces que los elementos aparecen en un elemento.
+
+<!ELEMENT persona (nom,cognom+)>: UNA VEZ O MAS
+
+  <persona>
+  <nom>Joan</nom>
+  <cognom>Puig</cognom>
+  </persona>
+  
+  OR
+
+  <persona>
+  <nom>Joan</nom>
+  <cognom>Puig</cognom>
+  <cognom>Garcia</cognom>
+  </persona>
+
+<!ELEMENT persona (nom, cognom, cognom?)>UNA VEZ O DOS
+
+<!ELEMENT persona (nom, cognom*)>1 VEZ O NINGUNA
+
+%%%%%%CONTENIDO MEZCLADO PAGINA 84
+
+  <!ELEMENT carta (#PCDATA|empresa|director )*>
+  <!ELEMENT empresa (#PCDATA)>
+  <!ELEMENT director(#PCDATA)>
+
+****
+
+*****
+
+$$ATRIBUTOS DTD ESTRUCTURA
+
+<!ATTLIST (ETIQUETA) (NOMBRE DEL ATRIBUTO) (TIPOS DE DATOS) (ATRIBUTOS DE LOS ATRIBUTOS)>
+ 
+  <!ATTLIST persona nom CDATA #IMPLIED>
+
+$ESPECIFICAR MULTIPLES ATRIBUTOS
+
+<!ATTLIST persona nom CDATA #REQUIRED>
+<!ATTLIST persona cognom CDATA #REQUIRED>
+
+OR
+
+<!ATTLIST persona nom CDATA #REQUIRED cognom CDATA #REQUIRED>
+
+$LAS DOS ESPECIFICACIONES PERMITEN VALIDAR EL SIGUIENTE EJEMPLO:
+
+<persona nom="Frederic" cognom="Pi" />
+
+$ATRIBUTOS ATTLIST *4 EN LA ESTRUCTURA
+
+#REQUIRED: ATRIBUTO OBLIGATORIO
+
+<!ATTLIST equip posicio ID #REQUIRED>
+
+#IMPLIED: EL ATRIBUTO ES OPCIONAL
+
+<!ATTLIST persona dni NMTOKEN #IMPLIED>
+
+#FIXED O #DEFAULT
+
+<!ATTLIST document versio CDATA #FIXED "1.0">
+<!ATTLIST document codificacio NMTOKEN #DEFAULT "UTFâˆ’8">
+
+$TIPOS DE DATOS *3 EN LA ESTRUCTURA
+
+$CDATA: <!ATTLIST empresa nom CDATA #REQUIRED>
+
+<empresa nom="Microsoft Corporation"/>
+<empresa nom="6tem"/>
+
+OR 
+
+<empresa nom="12"/>
+
+$ENUMERACION: <!ATTLIST mÃ²dul inici (setembre|febrer) #IMPLIED>
+
+Los datos que habran en el atributo INICI seran  SETEMBRE o FEBRER
+
+                            <!ATTLIST mÃ²dul nombre(1|2|3|4|5|6|7|8|9|10|11|12)>
+
+Los datos que habran en el atributo nombre seran del 1 al 12.
+
+$ID: <!ATTLIST equip posicio ID #REQUIRED>
+
+Sirve de identificador, el valor asignado no se puede repetir en el documento .
+
+NO VALIDARA
+
+  <classificaciÃ³>
+  <equip posiciÃ³="primer">F.C.Barcelona</equip>
+  <equip posiciÃ³="primer">Reial Madrid</equip>
+  </classificaciÃ³>
+
+VALIDARA
+  
+  <classificaciÃ³>
+  <equip posiciÃ³="primer">F.C.Barcelona</equip>
+  <equip posiciÃ³="segon">Reial Madrid</equip>
+  </classificaciÃ³>
+  
+$IDREF : Relacionan atributos con otros atributos con tipo de dato ID
+
+<!ATTLIST recepta id ID #REQUIRED>
+<!ATTLIST ingredient ref IDREF #REQUIRED
+
+<llibreâˆ’cuina>
+<receptes>
+<recepta id="recepta1">Patates fregides</recepta>
+<recepta id="recepta2">Patates bullides</recepta>
+</receptes>
+<ingredients>
+<ingredient ref="recepta1">Oli</ingredient>
+<ingredient ref="recepta2">Aigua</ingredient>
+</ingredients>
+</llibreâˆ’cuina>
+
+$IDREFS:Relaciona el atributo con una lista de atributos de tipo de dato ID
+
+<ingredient ref="recepta1 recepta2">Patates</ingredient>
+
+$NMTOKEN: Permite validar cualquier tipo de dato aceptado por XML.
+
+<!ATTLIST home naixement NMTOKEN #REQUIRED>
+
+VALIDA
+
+ <home naixement="1970" />
+ 
+ NO VALIDA POR TENER UN ESPACIO, lo cuenta como dos valores diferentes
+ 
+  <home naixement="segle XX" />
+  
+$NMTOKENS:Permite validar una lista de valores.
+
+ <coordenades posicio="x y"/>
+ 
+ $NOTATION:PAG 89 PDF
+ 
+ $ENTITY / ENTITIES: Indica que el valor es uan referencia a un valor externo. (imagenes)
+
+<!ATTLIST persona foto ENTITY #IMPLIED
+<!ENTITY pere SYSTEM "Pere.jpg">
+ 
+VALIDA PERE QUE HACE REFERENCIA A UN VALOR EXTERNO
+
+<persona nom="pere" />
+
+ 
+
+*******
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

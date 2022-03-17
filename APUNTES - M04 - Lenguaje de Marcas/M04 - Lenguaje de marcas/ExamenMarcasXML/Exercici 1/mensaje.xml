@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE servidor SYSTEM "sms.dtd" >
+<servidor>
+  <sms id="1">
+    <num_telf>604156987</num_telf>
+    <data_enviament>03-10-2015</data_enviament>
+    <hora_enviament>12:19</hora_enviament>
+    <contigut_sms>Hola buenos días</contigut_sms>
+  </sms>
+  
+  <sms id="2">
+    <num_telf>605254789</num_telf>
+    <data_enviament>03-10-2015</data_enviament>
+    <hora_enviament>12:19</hora_enviament>
+    <contigut_sms>Hola buenos días</contigut_sms>
+  </sms>
+  
+  <sms id="3">
+    <num_telf>604148562</num_telf>
+    <data_enviament>04-10-2015</data_enviament>
+    <hora_enviament>12:19</hora_enviament>
+    <contigut_sms>Hola buenos días</contigut_sms>
+  </sms>
+
+  <sms id="4">
+    <num_telf>604159874</num_telf>
+    <data_enviament>20-10-2015</data_enviament>
+    <hora_enviament>12:19</hora_enviament>
+    <contigut_sms>Hola a todos</contigut_sms>
+  </sms>
+
+  <sms id="5">
+    <num_telf>604156541</num_telf>
+    <data_enviament>14-10-2015</data_enviament>
+    <hora_enviament>12:19</hora_enviament>
+    <contigut_sms>Hola buenas</contigut_sms>
+  </sms>
+
+  <sms id="6">
+    <num_telf>60412365</num_telf>
+    <data_enviament>10-10-2015</data_enviament>
+    <hora_enviament>12:19</hora_enviament>
+    <contigut_sms>Hola buenos días</contigut_sms>
+  </sms>
+
+  <sms id="7">
+    <num_telf>604156967</num_telf>
+    <data_enviament>11-10-2015</data_enviament>
+    <hora_enviament>12:19</hora_enviament>
+    <contigut_sms>Hola buenos tardes</contigut_sms>
+  </sms>
+
+  <sms id="8">
+    <num_telf>604141237</num_telf>
+    <data_enviament>04-10-2015</data_enviament>
+    <hora_enviament>12:19</hora_enviament>
+    <contigut_sms>Hola y adios</contigut_sms>
+  </sms>
+  
+  </servidor>

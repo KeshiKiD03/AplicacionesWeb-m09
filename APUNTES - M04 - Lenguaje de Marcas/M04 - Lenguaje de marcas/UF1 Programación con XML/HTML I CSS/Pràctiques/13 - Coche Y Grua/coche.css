@@ -1,0 +1,28 @@
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+div {
+    border: 5px solid black;
+    text-align: center;
+}
+img.size {
+    width: 100px;
+    height: 100px;
+}
+img.size2 {
+    width: 150px;
+    height: 150px;
+}
+img {
+    position: relative;
+}
+
+/* #c1 { left: 390px; top:160px; } */
+#c2 { left: 285px; top:160px; }
+/* #c3 { left: 180px; top:160px; } */
+/* #c4 { left: 75px; top:160px; } */
+/* #c5 { left: -30px; top:160px; } */
+/* #c6 { left: -130px; top:160px; } */

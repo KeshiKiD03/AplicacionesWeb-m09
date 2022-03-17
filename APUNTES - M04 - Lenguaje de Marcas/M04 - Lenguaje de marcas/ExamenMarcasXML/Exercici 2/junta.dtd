@@ -1,0 +1,10 @@
+<!ELEMENT junta (persona+)>
+<!ATTLIST persona nom CDATA #REQUIRED cognom CDATA #REQUIRED>
+<!ATTLIST persona carrec ID #REQUIRED>
+<!ELEMENT persona (portal, codi_cc)>
+<!ATTLIST portal num[1|2|3|4|5]>
+<!ELEMENT portal (pis, lletra)>
+<!ELEMENT pis (#PCDATA)>
+<!ELEMENT lletra (#PCDATA)>
+<!ELEMENT codi_cc (#PCDATA)>
+<!ATTLIST persona codi_cc ID #REQUIRED>

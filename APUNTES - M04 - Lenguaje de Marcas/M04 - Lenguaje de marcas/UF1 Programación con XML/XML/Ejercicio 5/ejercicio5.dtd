@@ -1,0 +1,21 @@
+<!ELEMENT receta (nombre_plato,fotografia?,ingredientes,pasos)>
+<!ENTITY foto1 SYSTEM "imagen1.jpg" NDATA JPG>
+<!ENTITY foto2 SYSTEM "imagen2.jpg" NDATA JPG>
+
+<!ELEMENT nombre_plato (#PCDATA)>
+<!ELEMENT fotografia (#PCDATA)>
+<!NOTATION JPG SYSTEM "image/jpeg">
+
+<!ATTLIST fotografia foto ENTITIES #IMPLIED>
+
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT ingrediente (#PCDATA)>
+
+<!ELEMENT pasos (paso+)>
+
+<!ATTLIST paso orden CDATA #REQUIRED>
+
+<!ELEMENT paso (#PCDATA)>
+
+
+

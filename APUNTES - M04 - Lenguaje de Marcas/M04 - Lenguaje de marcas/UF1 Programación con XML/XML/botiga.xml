@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<botiga>
+  <categories>
+    <categoria idcat="c01">
+      <nom></nom>
+      <descripcio></descripcio>
+    </categoria>
+  </categories>
+  <articles>
+    <article idart="a01" idrcat="c01">
+      <nom></nom>
+      <descripcio></descripcio>
+      <preu></preu>
+    </article>
+    <article idart="a02" idrcat="c01">
+      <nom></nom>
+      <descripcio></descripcio>
+      <preu></preu>
+    </article>
+  </articles>
+
+</botiga>

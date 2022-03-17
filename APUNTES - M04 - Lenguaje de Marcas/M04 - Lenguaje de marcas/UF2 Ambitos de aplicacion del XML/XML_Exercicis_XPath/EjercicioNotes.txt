@@ -1,0 +1,30 @@
+1)
+
+/institut/cicles/especialitat/cicle
+
+2)
+
+/institut/cicles/especialitat/cicle/@id="GA" --> ?¿
+
+3)
+
+//alumne[@aprovat="NO"]//nom
+
+4) Mujeres que cursan ASIX
+
+
+5)
+
+//alumne[@aprovat="NO"]/email[contains(text(), "hotmail")]
+
+Buscame los alumnos no aprovados con el email que contenga hotmail.
+
+
+6) Lista de la clase de SMX
+
+9) count[//alumne[@aprovat="SI"]/../[cicle="ASIX"]
+
+
+ACTIVIDAD 2
+
+1) count[//partit/equip[@juga="visitant"][nom="Vermells"]

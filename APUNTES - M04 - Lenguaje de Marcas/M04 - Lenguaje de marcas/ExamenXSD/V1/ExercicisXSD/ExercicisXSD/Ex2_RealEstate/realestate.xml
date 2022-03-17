@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<realestate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="realestate.xsd">
+  <estate type="flat">
+    <address>
+        <street>Major</street>
+        <number>15</number>
+        <floor>2</floor>
+        <door>A</door>
+        <pobox>00058</pobox>
+    </address>
+    <price>250000.0</price>
+    <surface>92.5</surface>
+    <room>3</room>
+    <baths>2</baths>
+    <balcony>15.5</balcony>
+  </estate>
+
+</realestate>

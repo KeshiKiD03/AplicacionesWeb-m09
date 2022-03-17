@@ -1,0 +1,1 @@
+//carreras/carrera[@id=//alumno[@beca="si" and sexo="Hombre"]/estudios/carrera/@codigo]/nombre

@@ -1,0 +1,10 @@
+<!ELEMENT persona (nombre,ocupacion,aficiones,direccion,telefono)>
+<!ELEMENT nombre (nombre_pila,apellido+)>
+<!ATTLIST nombre DNI  CDATA #REQUIRED>
+<!ELEMENT nombre_pila (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT ocupacion (#PCDATA)>
+<!ELEMENT aficiones (aficion+)>
+<!ELEMENT aficion (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>

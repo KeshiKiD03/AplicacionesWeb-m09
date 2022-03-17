@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    <xs:simpleType name="tposition">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="goalkeeper"/>
+            // TODO: put all the positions you may consider 
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:complexType name="tround">
+          <xs:sequence>
+              <xs:element name="minutes" type="xs:integer"/>
+              <xs:element name="goals" type="xs:integer"/>
+              <xs:element name="called" type="xs:boolean"/>
+          </xs:sequence>
+          <xs:attribute name="date" type="xs:date"/>
+    </xs:complexType>    
+    
+    <xs:complexType name="tproperties">
+        <xs:sequence>
+            <xs:element name="dateofbirth" type="xs:date"/>
+            <xs:element name="position" type="tposition"/>
+            <xs:element name="salary" type="xs:float"/>
+            <xs:element name="team" type="xs:string"/>
+            <xs:element name="endofcontrac" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="tstats">
+          <xs:sequence>
+                <xs:element name="round" type="tround"/>
+          </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="tplayer">
+        <xs:sequence>
+            <xs:element name="properties" type="tproperties"/>
+            <xs:element name="stats" type="tstats"/>
+        </xs:sequence>
+    </xs:complexType>
+  
+  <xs:element name="playerdb">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="player" type="tplayer" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

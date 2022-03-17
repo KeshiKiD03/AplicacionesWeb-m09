@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="agenda.xsd">
+  <contacte>
+    <nom></nom>  
+    <cognoms></cognoms>
+    <naixement>1994</naixement>
+  </contacte>
+  <contacte>
+    <nom></nom>
+    <cognoms></cognoms>
+    <naixement>1850</naixement>
+  </contacte>
+</agenda>

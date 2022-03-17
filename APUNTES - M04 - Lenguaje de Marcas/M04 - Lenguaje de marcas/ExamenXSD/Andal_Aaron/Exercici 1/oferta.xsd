@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <xs:element name="oferta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="vehiculo" type="tvehiculo" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="tvehiculo">
+    <xs:sequence>
+      <xs:element name="marca" type="xs:string" />
+      <xs:element name="modelo" type="tmodelo" />
+      <xs:element name="motor" type="tmotor" />
+      <xs:element name="matricula" type="tmatricula" />
+      <xs:element name="kilometros" type="tkilometros" />
+      <xs:element name="precio_inicial" type="tprecio_inicial" />
+      <xs:element name="precio_oferta" type="tprecio_oferta" />
+      <xs:element name="extra" type="textra" maxOccurs="3" minOccurs="2"/>
+      <xs:element name="foto" type="tfoto" maxOccurs="3" minOccurs="2" />
+    </xs:sequence>
+  </xs:complexType>
+
+<xs:simpleType name="tmarca">
+  <xs:restriction base="xs:string">
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="tmodelo">
+<xs:sequence>
+</xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="tmotor">
+  <xs:sequence>
+  </xs:sequence>
+</xs:simpleType>  
+
+<xs:simpleType name="tmatricula">
+  <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{7}"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tkilometros">
+  <xs:restriction base="xs:integer">
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tprecio_inicial">
+  <xs:restriction base="xs:float">
+    <xs:maxInclusive value="99999.99" />
+    <xs:minInclusive value="1" />
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tprecio_oferta">
+  <xs:restriction base="xs:float">
+    <xs:maxInclusive value="99999.99" />
+    <xs:minInclusive value="1" />
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="textra">
+  <xs:restriction base="xs:string">
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tfoto">
+  <xs:restriction base="xs:string">
+  </xs:restriction>
+</xs:simpleType>
+
+
+</xs:schema>

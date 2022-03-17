@@ -1,0 +1,16 @@
+<!ELEMENT jugador (dades_personals,fitxa_tecnica,estadistiques+)>
+
+<!ELEMENT dades_personals (nom,cognoms)>
+<!ELEMENT fitxa_tecnica (equip,posicio+,dorsal)>
+<!ELEMENT estadistiques (convocat,minuts_jugats,gols)>
+
+<!ATTLIST  estadistiques jornada CDATA #REQUIRED>
+
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognoms (#PCDATA)>
+<!ELEMENT equip (#PCDATA)>
+<!ELEMENT posicio (#PCDATA)>
+<!ELEMENT dorsal (#PCDATA)>
+<!ELEMENT convocat (#PCDATA)>
+<!ELEMENT minuts_jugats (#PCDATA)>
+<!ELEMENT gols (#PCDATA)>

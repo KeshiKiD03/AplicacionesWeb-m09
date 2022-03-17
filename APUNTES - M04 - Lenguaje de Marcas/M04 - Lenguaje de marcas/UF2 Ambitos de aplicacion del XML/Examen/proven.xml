@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<institut>
+	<assignatures>
+		
+	  <assignatura id="1">
+		<nom>Química</nom>
+		<preu tipo="crèdit">5</preu>
+		<alumnes>20</alumnes>
+		<inici>1/9/2012</inici>
+		<fi>1/6/2013</fi>
+		<aula>21</aula>
+		<professors>
+			<professor>Jesús Piera</professor>
+		</professors>
+	  </assignatura>
+	  
+	  <assignatura id="2">
+		<nom>Matemàtiques</nom>
+		<preu tipo="hores">75</preu>
+		<alumnes>35</alumnes>
+		<inici>1/9/2012</inici>
+		<fi>1/6/2013</fi>
+		<aula>23</aula>
+		<professors>
+			<professor>Antoni Rubio</professor>
+			<professor>Jesús Piera</professor>
+		</professors>
+	  </assignatura>
+	  
+	  <assignatura id="3">
+		<nom>Física</nom>
+		<preu tipo="hores">50</preu>
+		<alumnes>17</alumnes>
+		<inici>1/9/2012</inici>
+		<fi>1/6/2013</fi>
+		<aula>24</aula>
+		<professors>
+		  <professor>Juan Luis Corral</professor>
+		  <professor>Andrés Garcia</professor>
+		</professors>   
+	  </assignatura>
+
+	  <assignatura id="5">
+		<nom>Microones</nom>
+		<preu tipo="hores">50</preu>
+		<alumnes>17</alumnes>
+		<inici>1/9/2012</inici>
+		<fi>1/6/2013</fi>
+		<aula>31</aula>
+		<professors>
+			<professor>Vicenç Almenar</professor>
+			<professor>Andrés Garcia</professor>
+		</professors>
+		
+	  </assignatura>
+	  
+	  <assignatura id="6">
+		<nom>Bases de dades</nom>
+		<preu tipo="crèdit">8</preu>
+		<alumnes>17</alumnes>
+		<inici>1/9/2012</inici>
+		<fi>1/6/2013</fi>
+		<aula>17</aula>
+		<professors>
+			<professor>Juan Luis Corral</professor>
+		</professors>
+	  </assignatura>
+	  
+	  <assignatura id="7">
+		<nom>Informàtica tridimensional</nom>
+		<preu tipo="hores">75</preu>
+		<alumnes>17</alumnes>
+		<inici>1/9/2012</inici>
+		<fi>1/6/2013</fi>
+		<aula>18</aula>
+		<professors>
+			<professor>Víctor Espionsa</professor>
+		</professors>
+	  </assignatura>
+	  
+	  <assignatura id="8">
+		<nom>Comunicacions mòbils</nom>
+		<preu tipo="hores">60</preu>
+		<alumnes>20</alumnes>
+		<inici>1/9/2012</inici>
+		<fi>1/6/2013</fi>
+		<aula>18</aula>
+		<professors>
+			<professor>Xelo Part</professor>
+			<professor>Víctor Espionsa</professor>
+			<professor>Juan Luis Corral</professor>
+		</professors>
+	  </assignatura>
+	  
+	</assignatures>
+
+	<aules>
+		
+		<aula codi="21">
+			<planta>2</planta>
+			<tipus>Laboratori</tipus>
+			<capacitat>25</capacitat>
+		</aula>
+		
+		<aula codi="23">
+			<planta>2</planta>
+			<tipus>Ordinària</tipus>
+			<capacitat>35</capacitat>
+		</aula>
+		
+		<aula codi="24">
+			<planta>2</planta>
+			<tipus>Ordinària</tipus>
+			<capacitat>30</capacitat>
+		</aula>
+		
+		
+		<aula codi="14">
+			<planta>1</planta>
+			<tipus>Informàtica</tipus>
+			<capacitat>30</capacitat>
+		</aula>
+		
+		<aula codi="17">
+			<planta>1</planta>
+			<tipus>Informàtica</tipus>
+			<capacitat>30</capacitat>
+		</aula>
+		
+		<aula codi="18">
+			<planta>1</planta>
+			<tipus>Informàtica</tipus>
+			<capacitat>30</capacitat>
+		</aula>
+		
+		<aula codi="31">
+			<planta>3</planta>
+			<tipus>Ordinària</tipus>
+			<capacitat>30</capacitat>
+		</aula>
+
+	</aules>
+</institut>
