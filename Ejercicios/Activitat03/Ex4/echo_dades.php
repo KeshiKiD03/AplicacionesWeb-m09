@@ -11,17 +11,18 @@
 	<body bgcolor="#bed7c0">
         	
         <div class="main">
-            <h2 style="text-align: right;">Dades personals (Resultat)</h2>
-            
-            <p>Usuari: <?php echo $_POST["usuario"];?></p>
+            <h2 style="text-align: center;">Dades personals (Resultat)</h2>
+            <center>
+                <p>Usuari: <?php echo $_POST["usuario"];?></p>
 
+            </center>
             <center>
                 <?php
                 
                 if ( $_POST["menuSexe"] == 'void' )
                     echo '<b style=" color: red">No s ha introduit cap genere de sexe.</b>';
                 else
-                    echo '<p>Su genere és <b>' . $_POST["menuSexe"] .'</b><p>';
+                    echo '<p>El seu gènere <b>' . $_POST["menuSexe"] .'</b><p>';
                 
                 ?>
             </center>
@@ -32,7 +33,7 @@
                 if ( $_POST["menuAficions"] == 'void' )
                     echo '<b style=" color: red">No ha introducido ninguna afición.</b>';
                 else
-                    echo '<p>La seva afició és <b>' . $_POST["menuAficiones"] .'</b><p>';
+                    echo '<p>La seva afició és <b>' . $_POST["menuAficions"] .'</b><p>';
                 
                 ?>
             </center>
