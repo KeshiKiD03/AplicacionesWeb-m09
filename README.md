@@ -7,9 +7,15 @@
 
 `LAMP`
 
+*Debian*
+
 https://chachocool.com/como-instalar-lamp-en-debian-11-bullseye/
 
-``
+*Ubuntu*
+
+https://noviello.it/es/como-instalar-lamp-apache-mysql-php-en-ubuntu-20-04-lts/ 
+
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04-es
 
 # HTML
 
