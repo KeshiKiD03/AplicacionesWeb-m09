@@ -1,0 +1,236 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Titol de la pagina</title>
+	<meta charset="UTF-8">
+
+	<style>
+		body {<!--background-color:lightgrey;-->}
+
+		h1   {color:blue;}
+
+		p#patataID {
+			/* Aquest sistema es per a fer-lo servir amb 1 únic element <p> de la pàg web identificat
+			amb el ID "patataID".
+			Ojito amb oblidar-te dels ";" */
+			color:green;
+			font-family:courier;
+			font-size:100%;
+			border:1px solid black;
+			padding:10px;
+			margin:30px;
+		}
+
+		p.vermell {
+			/* Aquest sistema es per a fer-lo servir amb qualsevol element <p> de la pàg web que faci
+			servir la classe "vermell" */
+			color:red;
+			/*font-family:courier;*/
+			font-size:160%;
+			border:1px solid black;
+			padding:10px;
+			margin:30px;
+		}
+
+ 		p {
+			color:blue; 
+			font-family:verdana;
+		}
+
+
+		a:link    {color:blue; background-color:transparent; text-decoration:none}
+		a:visited {color:pink; background-color:transparent; text-decoration:none}
+		a:hover   {color:red; background-color:transparent; text-decoration:underline}
+		a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+
+
+		table#t01 tr:nth-child(even) {
+			color: red;
+		    	background-color: #eee;
+		}
+		table#t01 tr:nth-child(odd) {
+			color: green;
+	    		background-color: #fff;
+		}
+		table#t01 th {
+		    	color: white;
+		    	background-color: black;
+		} 
+
+		ul#menu {
+			padding: 0;
+		}
+
+		ul#menu li {
+			display: inline;
+			background-color: red;
+		}
+
+		ul#menu li:hover {
+			background-color: orange;
+		} 
+
+		ul#menu li a {
+			background-color: yellow;
+			color: red;
+			padding: 10px 20px;
+			text-decoration: none;
+			border-radius: 4px 4px 0 0;
+		}
+
+		ul#menu li a:hover {
+			background-color: black;
+		} 
+	</style>
+</head>
+
+<body>
+	Amb 'meta charset="UTF-8"' en el head aconseguim visualitzar bé les lletres amb accent.
+	<p style="font-family:courier; color:blue">
+		Inici del paràgraf 2 <br>
+		I ara una cita petita: <q>cita petita</q><br>
+		La <abbr title="Capsule corp."> C<sup>corp.</sup> </abbr> és la Capsule corp.<br>
+		Fi del paràgraf 2
+	</p>
+	<p id="patataID">
+		Inici del paràgraf 3 
+		<hr>
+		Capsule<sup>corp.</sup><br>
+		Fi del paràgraf 3
+	</p>
+	<p class="vermell">
+		Inici del paràgraf 4 <br>
+		Capsule<sup>corp.</sup><br>
+		Fi del paràgraf 4
+	</p>
+	<p>
+		Inici del paràgraf 5 <br>
+		Capsule<sup>corp.</sup><br>
+		Fi del paràgraf 5
+	</p>
+
+
+<!-- Do not display this at the moment patata <br>
+<img border="0" src="pic_mountain.jpg" alt="Mountain"><br>
+-->
+
+	<p>
+		<img src="centros-en-el-mundo.png" alt="Smiley face" style="float:right;width:42px;height:42px;">
+		The image will float to the right of the text. <br>
+		 <a href="http://google.es" target="_blank">link a google</a> <br>
+	</p>
+
+	<br>
+
+	<table style="width:auto" border="10">
+		<tr>
+			<td>Jill</td>
+			<td>Smith</td>
+			<td>50</td>
+		</tr>
+		<tr>
+			<td>Eve</td>
+			<td>Jackson</td>
+			<td>94</td>
+		</tr>
+	</table> 
+
+	<br>
+
+	<table style="width:100%" border="1">
+		<tr>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>Points</th>
+		</tr>
+		<tr>
+			<td>Eve 1</td>
+			<td>Jackson</td>
+			<td>94</td>
+		</tr>
+		<tr>
+			<td colspan="2">Eve 2</td>
+			<td>94</td>
+		</tr>
+		<tr>
+			<td>Eve 3</td>
+			<td>Jackson</td>
+			<td>94</td>
+		</tr>
+	</table>
+
+	<br>
+
+	<table style="width:100%" border="1" id="t01">
+		<caption>Monthly savings</caption>
+		<tr>
+			<th>Name:</th>
+			<td>Bill Gates</td>
+		</tr>
+		<tr>
+			<th rowspan="2">Telephone:</th>
+			<td>555 77 854</td>
+		</tr>
+		<tr>
+			<td>555 77 855</td>
+		</tr>
+	</table>
+
+	<br>
+
+	<ul style="list-style-type:circle">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ul> 
+
+	<br>
+
+	<ol type="A">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ol> 
+
+	<br>
+
+	<dl>
+		<dt>Coffee</dt>
+		<dd>- black hot drink</dd>
+		<dd>- with milk</dd>
+		<dt>Milk</dt>
+		<dd>- white cold drink</dd>
+	</dl> 
+
+	<br>
+
+	<ul>
+		<li>Coffee</li>
+		<li>Tea
+			<ul>
+				<li>Black tea</li>
+				<li>Green tea</li>
+			</ul>
+		</li>
+		<li>Milk</li>
+	</ul> 
+
+	<br>
+
+	LLista amb elements linkables i no linkables que canvien de color: 
+	<ul id="menu">
+		<li>HTML</li>
+		<li>CSS</li>
+		<li><a href="http://www.google.es">JavaScript</a></li>
+		<li>PHP</li>
+	</ul>
+
+
+	<br>
+	<br>
+
+
+
+
+</body>
+</html> 

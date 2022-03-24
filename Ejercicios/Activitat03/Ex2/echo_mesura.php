@@ -38,18 +38,14 @@
 
 	    	<h2 align="center">El quadrat és (Resultat)</h2>
             <center>
-                <div style="border: 10px solid; background: white; width: <?php echo $_POST[]">
-                    <?php 
-            
-                        echo $_POST["nom"];
-            
-                    ?>
+                <div style="border: 10px solid; background: white; width: 
+                    <?php echo $_POST["size"]?>px; height: <?php echo $_POST["size"]?>px">
                 </div>
             </center>
         </div>
         <br>
         <div align="center">
-            <a href="solicita_nom.html">Tornar</a>
+            <a href="solicita_mesura.html">Tornar</a>
         </div>
 	</body>
 </html>

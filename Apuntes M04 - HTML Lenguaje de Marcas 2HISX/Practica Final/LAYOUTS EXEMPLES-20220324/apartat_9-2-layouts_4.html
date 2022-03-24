@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<style>
+		div.container {
+			width: 100%;
+			border: 1px solid gray;
+		}
+
+		header, footer {
+			padding: 1em;
+			color: white;
+			background-color: black;
+			clear: left;
+			text-align: center;
+		}
+
+		nav {
+			float: center;
+			max-width: 100%;
+			margin: 0;
+			padding: 1em;
+			text-align: center;
+			border: 10px solid green;
+		}
+
+		nav ul {
+			list-style-type: none;
+			padding: 1;
+			display: flex;
+			align-items: center;
+
+		}
+
+		nav ul li {
+			display: inline;
+			background-color: red;
+		}
+
+		nav ul a {
+			text-decoration: none;
+		}
+
+		
+
+		article {
+			/*margin-left: 0px;
+			border-left: 1px solid gray;
+			padding: 0em;
+			overflow: hidden;*/
+			border: 10px solid gray;
+			width: 73%;
+		}
+
+		section {
+			width: 73%;
+			border: 10px solid yellow;
+		}
+
+		aside {
+			width: 25%;
+		  	float: right;
+			border: 10px solid red;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<h1>HEADER: City Gallery</h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li>AAAA</li>
+				<li><img src="centros-en-el-mundo.png" width="15%"></li>
+				<li><a href="https://en.wikipedia.org/wiki/London">London</a></li>
+				<li><a href="https://en.wikipedia.org/wiki/Paris">Paris</a></li>
+				<li><a href="https://en.wikipedia.org/wiki/Tokyo">Tokyo</a></li>
+			</ul>
+		</nav>
+
+		<aside >
+		    <p><b>ASIDE</b></p>
+		    <a href="http://www.bakerella.com">Bakerella</a> <br>
+		    <a href="http://sourdough.com/"> Sourdough.com</a> <br>
+		    <a href="http://www.bakingobsession.com">BakingObsession</a>
+		</aside>
+
+		<article>
+	        <p><b>ARTICLE</b></p>
+	        <p>There ... to rise.</p>
+	        <p>Where ... with less protein.</p>				
+		</article>
+
+		<section>
+	        <p><b>SECTION</b></p>
+	        <p>There ... to rise.</p>
+	        <p>Where ... with less protein.</p>
+		</section>
+
+		<footer>Copyright © W3Schools.com</footer>
+	</div>
+</body>
+</html>

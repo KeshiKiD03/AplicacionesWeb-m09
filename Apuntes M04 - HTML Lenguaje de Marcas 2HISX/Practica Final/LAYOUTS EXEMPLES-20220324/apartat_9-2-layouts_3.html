@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<!-- 
+L'atribut "border" és perquè veieu quin espai de la pantalla ocupa el tag "div", "nav" i "article". Si 
+voleu el podeu esborrar.
+L'atribut "max-width" del tag "nav" determina quanta amplada de la pantalla ocuparà el "nav".
+L'atribut "display" del tag "nav ul li" determina si els elements estaran uns sobre els altres (block) o uns al costat dels altres (inline).
+L'atribut "margin-left" del tag "article" determina a quanta distància està el tag "article" de l'esquerra de la pantalla.
+-->
+		<style>
+			div.container {
+				width: 100%;
+				border: 1px solid gray;
+			}
+
+			header, footer {
+				padding: 1em;
+				color: white;
+				background-color: black;
+				clear: left;
+				text-align: center;
+			}
+
+			nav {
+				float: center;
+				max-width: 100%;
+				margin: 0;
+				padding: 1em;
+				text-align: center;
+				border: 2px solid red;
+			}
+
+			nav ul {
+				list-style-type: none;
+				padding: 0;
+			}
+
+			nav ul li {
+				display: inline;
+			}
+
+			nav ul a {
+				text-decoration: none;
+			}
+
+			article {
+				margin-left: 170px;
+				padding: 1em;
+				overflow: hidden;
+				border: 3px solid green;	
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<header>
+				<h1>City Gallery</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="#">London</a></li>
+					<li><a href="#">Paris</a></li>
+					<li><a href="#">Tokyo</a></li>
+				</ul>
+			</nav>
+			<article>
+				<h1>London</h1>
+				<p>London is the capital city of England. </p>
+				<p>Standing on the River Thames, London has been...</p>
+			</article>
+			<footer>Copyright © W3Schools.com</footer>
+		</div>
+	</body>
+</html>
