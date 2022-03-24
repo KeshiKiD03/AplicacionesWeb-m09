@@ -1,0 +1,64 @@
+#DivGeneral {
+    width: 663px;
+    height: 55%;
+    border: inset black 4px;
+    font-family: sans-serif;
+    background-color: #CCCCFF;
+    float: left;
+}
+#DPer {
+    padding-top: 1%;
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 8px;
+}
+#DPro {
+    margin-left: -130px;
+    padding-top: 1%;
+    float: left;
+}
+#Cont {
+    padding-top: 1%;
+    float: left;
+    height: 100px;
+    width: 110px;
+}
+.Field1 {
+    border: outset black 4px;
+    width: 26%;
+    height: 30%;
+    background-color: #CCCCFF;
+}
+.Field2 {
+    border: outset black 4px;
+    width: 18%;
+    height: 25%;
+    background-color: #CCCCFF;
+}
+.Field3 {
+    border: outset black 4px;
+    width: 10%;
+    background-color: #CCCCFF;
+}
+.Bot {
+    color: red;
+}
+.field1css:hover {
+    background-color: #00FFFF;
+}
+.field1css:focus {
+    background-color: #81BEF7;
+    color: green;
+}
+.Field1:hover {
+    border: inset #AB3A3A 4px;
+    background-color: #CCCCCC;
+}
+.Field2:hover {
+    border: inset #AB3A3A 4px;
+    background-color: #CCCCCC;
+}
+.Field3:hover {
+    border: inset #AB3A3A 4px;
+    background-color: #CCCCCC;
+}

@@ -1,0 +1,138 @@
+Ex1:
+http://www.w3schools.com/css/css_pseudo_classes.asp
+	tr:hover
+	td:hover
+	th
+	tr:child(odd even)
+	caption { caption-side:bottom } --> Posicionamiento del caption
+	<th scope="col">
+The scope attribute defines a way to associate header cells and data cells in a table.
+The scope attribute identifies whether a cell is a header for a column, row, or group of columns or rows.
+
+[
+col	-> Especifica que la celda es un encabezado de una columna.
+row	-> Especifica que la celda es un encabezado de una fila.
+colgroup-> Especifica que la celda es una cabecera de un grupo de columnas.
+rowgroup-> Especifica que la celda es una cabecera de un grupo de filas.
+]
+
+POSICIONAMIENTO CSS
+. Descendéncia
+. Adjacéncia
+			HTML
+			||||
+	HEAD-------------------------------BODY
+	||||				   ||||
+TITLE----------LINK		  H1--------H2-------DIV
+						     |||
+					    FORM-------------P
+
+tbody tr:nth-child(even) {color:red}
+tbody tr:nth-child(odd)
+
+.euros {text-align: right;}
+.euros:after {content: '€'}
+
+Ex2:
+TEXT
+	<form>
+	First name: <input type="text" name="firstname"><br>
+	Last name: <input type="text" name="lastname">
+	</form>
+
+PASSWORD
+	<form>
+	Password: <input type="password" name="pwd">
+	</form>
+
+BOTONES DE RADIO (Solo 1 de cada tipo)
+	<form>
+	<input type="radio" name="sex" value="male">Male<br>
+	16:16 13/01/2014	
+	</form>
+
+(
+type="radio" --> Tipo de input
+name=".." --> Nombre que tendrán los botones
+value=".." --> Valor del botón que se verá en la página.
+)
+
+CHECKBOXES (Se pueden seleccionar todas)
+	<form>
+	<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+	<input type="checkbox" name="vehicle" value="Car">I have a car 
+	</form>
+
+(
+type="checkbox" --> Tipo de input
+name=".." --> Nombre que tendrán los checkboxes
+value=".." --> Valor
+)
+
+SUBMIT BUTTON
+	<form name="input" action="html_form_action.asp" method="get">
+	Username: <input type="text" name="user">
+	<input type="submit" value="Submit">
+	<input type="reset" value="Reset">
+	</form>
+
+(
+action="html_form_action.asp" --> Se ejecuta este programa para guardar los datos en la BD especificada.
+
+)
+
+
+
+TEXTAREA
+(
+<textarea rows="20" cols="25">
+TEXTO....
+</textarea>
+)
+
+LISTA DE SELECCION DROP DOWN SIMPLE
+	<form action="">
+	<select name="cars">
+	<option value="volvo">Volvo</option>
+	<option value="saab">Saab</option>
+	<option value="fiat">Fiat</option>
+	<option value="audi">Audi</option>
+	</select>
+	</form>
+
+(
+<option value="volvo" selected>Volvo</option>
+"Marca seleccionando primero la opción"
+)
+
+FIELDSET
+	<form action="">
+	<fieldset>
+	<legend>Personal information:</legend>	
+	Name: <input type="text" size="30"><br>
+	E-mail: <input type="text" size="30"><br>
+	Date of birth: <input type="text" size="10">
+	</fieldset>
+	</form>
+(
+<legend>Títol del fieldset</legend>
+)
+
+EMAIL A PARTIR DE UNA FORMA CON UN RESET
+	<h3>Send e-mail to someone@example.com:</h3>
+	<form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+	Name:<br>
+	<input type="text" name="name" value="your name"><br>
+	E-mail:<br>
+	<input type="text" name="mail" value="your email"><br>
+	Comment:<br>
+	<input type="text" name="comment" value="your comment" size="50"><br><br>
+	<input type="submit" value="Send">
+	<input type="reset" value="Reset">
+	</form>
+
+(
+action="MAILTO:aaron@example.com" --> Enviar a ...
+method="post"
+<input type="reset" value="Reset"> --> Resetea
+)

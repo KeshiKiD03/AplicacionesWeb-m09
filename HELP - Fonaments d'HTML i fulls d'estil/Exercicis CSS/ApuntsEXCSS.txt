@@ -1,0 +1,60 @@
+﻿Ejercicio 4
+
+
+
+Adjacència
+
+ + --> A la misma altura 
+Descendència > --> 
+
+
+Con un espacio --> 
+Descendiente en cualquier nivel
+
+Las comas --> , 
+Añadir otro
+
+REGLAS CSS Sólo 7 -->
+ 	
+
+	
+HEAD -->
+
+HTML-->		
+
+
+	
+BODY --> H1
+	
+		
+ H2
+
+		 P
+
+		
+ DIV --> P --> a
+
+			 A
+
+			 
+
+IMG
+
+h1+h2+p {
+
+p+div>p {
+
+
+p+div>p>a {
+
+
+
+Ejercicio 15 Posicionamiento flotante
+
+Posicionamiento: 
+
+
+
+MODO REEMPLAZAR RÁPIDO LOS ACENTOS CON CONTROL + H Y PONER LA LETRA Á = &AACUTE
+
+CSS GRADIENTE

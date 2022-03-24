@@ -1,0 +1,59 @@
+table, td, th {
+    border: outset 2px black;
+    margin: auto;
+    font-family: calibri;
+}
+thead th {
+    background-color: blue;
+    font-size: 20px;
+}
+tbody th {
+    background-color: #99CCFF;
+    font-size: 20px;
+}
+tbody td {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+tbody tr:nth-child(odd) {
+    color: #A54444;
+}
+tbody tr:nth-child(even) {
+    color: green;
+}
+tbody th {
+    color: black;
+}
+caption {
+    background-color: grey;
+    color: white;
+    caption-side: bottom;
+    font-size: 20px;
+}
+tr:hover {
+    background-color: #F3F781;
+}
+td:hover {
+    background-color: turquoise;
+}
+thead th:hover {
+    background-color: red;
+}
+tbody th:hover {
+    background-color: #FF1493;
+}
+.cabecera {
+    height: 50px;
+}
+tbody th {
+    width: 110px;
+    height: 35px;
+    padding-left: 15px;
+}
+.euros {
+    text-align: right;
+}
+.euros:after {
+    content: ' €'
+}

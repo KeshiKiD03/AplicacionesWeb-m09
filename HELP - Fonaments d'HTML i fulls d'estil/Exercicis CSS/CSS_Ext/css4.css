@@ -1,0 +1,24 @@
+body {
+    text-align: justify;
+    margin-right: 700px;
+    width: 50%;
+    background-color: grey;
+}
+h1+h2 {
+    background-color: yellow;
+}
+h2+p,h2+p,h2+p,h2+p {
+    background-color: green;
+}
+h1+h2+p+p {
+    background-color: #FF9900;
+}
+h1+h2+p+p+h2+p+p,h1+h2+p+p+h2+p+p+p+h2+p+p {
+    background-color: #FF33FF;
+}
+li+li {
+    background-color: red;
+}
+p+p>a {
+    background-color: #6600FF;
+}

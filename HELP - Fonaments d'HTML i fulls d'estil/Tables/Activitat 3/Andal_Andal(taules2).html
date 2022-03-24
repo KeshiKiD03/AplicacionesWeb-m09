@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Taules segona part</title>
+    <style>
+        h1 {
+            font-family: calibri;
+            font-size: 40px;
+            text-align: center;
+            font-weight: bold;
+            text-decoration: underline;
+            text-shadow: 0.1em 0.1em 0.2em red;
+        }
+        table {
+            border: solid 2px;
+            border-color: #BDBDBD;
+            margin-left: 50px;
+            margin-bottom: 50px;
+        }
+        th, td {
+            border: groove 3px;
+            border-color: #A4A4A4;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemples taules (II)</h1>
+    <table>
+        <tr>
+            <th>January</th>
+            <th>February</th>
+            <th>March</th>
+        </tr>
+        <tr>
+            <td style="padding-left: 0px">This is cell 1</td>
+            <td style="padding-left: 0px">Cell 2</td>
+            <td style="padding-left: 0px">Another cell,<br /> cell 3</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 0px">Cell 4</td>
+            <td style="padding-left: 0px">and now this <br /> is cell 5</td>
+            <td style="padding-left: 0px">Cell 6</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>January</th>
+            <th>February</th>
+            <th>March</th>
+        </tr>
+        <tr style="text-align: center">
+            <td> all aligned center</td>
+            <td>Cell 2</td>
+            <td>Another cell,<br /> cell 3</td>
+        </tr>
+        <tr>
+            <td style="text-align: right; padding-right: 0px">aligned right</td>
+            <td style="text-align: center">aligned to center</td>
+            <td style="text-align: left; padding-left: 0px">default,<br> aligned left</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>January</th>
+            <th>February</th>
+            <th>March</th>
+        </tr>
+        <tr valign="top">
+            <td style="padding-left: 0px;">all aligned to top</td>
+            <td style="padding-left: 0px;">and now this <br> is cell 2</td>
+            <td style="padding-left: 0px;">Cell 3</td>
+        </tr>
+        <tr>
+            <td valign="top" style="padding-right: 0px">aligned to the top</td>
+            <td valign="bottom" style="padding-right: 0px">aligned to the bottom</td>
+            <td style="padding-left: 0px">default alignment,<br>center</td>
+        </tr>
+    </table>
+    <table>
+        <caption align="top">A top CAPTION</caption>
+        <tr>
+            <th>January</th>
+            <th>February</th>
+            <th>March</th>
+        </tr>
+        <tr>
+            <td style="padding-left: 0px">This is cell 1</td>
+            <td style="padding-left: 0px">Cell 2</td>
+            <td style="padding-left: 0px">Another cell,<br /> cell 3</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>January</th>
+            <th>February</th>
+            <th>March</th>
+        </tr>
+        <tr>
+            <td style="padding-left: 0px">This is cell 1</td>
+            <td style="padding-left: 0px">Cell 2</td>
+            <td style="padding-left: 0px">Another cell,<br /> cell 3</td>
+        </tr>
+        <caption align="bottom">A bottom CAPTION</caption>
+    </table>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3
+                <table style="margin: 0px; margin-right: 5px">
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>D</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+    <table width="50%">
+        <tr>
+            <td>Width=50%</td>
+            <td>Width=50%</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <table width="50%">
+        <tr>
+            <td>Item width affects cell size</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <table width="100%">
+        <tr>
+            <td>WIDTH=100%</td>
+            <td>This is item 2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <table style="margin-left: 400px" width="50%">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+    </table>
+    <table width="50%">
+        <tr>
+            <td>Item 1</td>
+            <td>Item 2</td>
+        </tr>
+        <tr>
+            <td>
+                <table style="margin: 0px" width=100%>
+                    <tr>
+                        <td>Item A</td>
+                        <td>Item B</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Item 4</td>
+        </tr>
+    </table>
+    <table width="50%">
+        <tr>
+            <td>HEIGHT=15%</td>
+            <td>Item 2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+</body>
+</html>
