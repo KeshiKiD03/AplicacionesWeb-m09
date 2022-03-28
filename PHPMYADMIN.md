@@ -86,6 +86,13 @@ Para clau mirar si hi ha una funció anomenada MD5
 
 Insertar un parell de registres a la taula llibres, els que vulgueu
 
+```SQL
+INSERT INTO `llibres` (`id`, `nom`, `autor`, `isbn`, `puntuacio`, `genere`) VALUES
+(101, 'Muerte en el Nilo', 'Agatha Christie', '9788467045420', 789, 'novel·la'),
+(102, 'One Piece', 'Eiichirō Oda', '123456789', 456, 'Acción, Aventura, Fantasía, Comedia');
+
+```
+
 Exportar l'estructura i les dades de la base de dades de biblioteca. **EXPORT**.
 
 **Heu de lliurar l’arxiu .sql obtingut amb l’exportació.**
