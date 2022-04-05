@@ -17,6 +17,14 @@ Aquest administrador de continguts pot utilitzar-se en un PC local (en Localhost
 
 https://launch.joomla.org/ 
 
+https://ccp.cloudaccess.net/clientarea.php 
+
+--> *BACKEND* --> https://keshi.joomla.com/administrator/index.php?catoken=6aa6f1e76aabf0e5c613f82a2265913985dcacf7be79a060e286d018ff8e29a4&ccp=1
+
+Maribel:JoomlaMaribel
+
+--> **Open Administrator**
+
 Para ponerlo en Español --> System --> Language --> Spanish --> Install (Reinstall)
 
 --> User Menu --> Ajustes de accesibilidad --> Configuración básica --> Idioma de administración (2) - For ENT --> España - FRONTEND - BACKEND --> **SAVE AND CLOSE**.
