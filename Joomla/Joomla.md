@@ -40,3 +40,91 @@ Para ponerlo en Español --> System --> Language --> Spanish --> Install (Reinst
 --------------------------------------
 
 # Poner el usuario de Maribel para que acceda.
+
+--------------------------------------
+
+# Ejercicio 2
+
+* Instalar módulo para que se puedan registrar los usuarios en el FRONTEND
+
+--> Sistema --> Configuración Global --> Usuarios
+
+---------------------------------------
+
+Para que usuarios tengan acceso a la categoria TEATRO MUSICAL:
+- Entrar dentro de la categoria MUSICAL
+    Acceso*: Registered
+
+
+---- HEREDAR PERMISOS
+
+ELEMENTS DE MENU NO CATEGORIAS
+
+ENJAULARLO POR MENU Y NO CATEGORIA, SE PODRÍA TAMBIÉN POR CATEGORIAS
+
+
+----------------------------------------------
+
+# Exercici 1 - USUARIS FRONT-END
+
+● Crea un usuari per a cada tipus que permet Joomla amb accés al FRONT-END.
+
+* USUARIOS --> GESTIONAR --> NUEVO --> 
+
+joomlauser
+
+password: joomlauserjoomlauser
+
+Permisos **Registered**
+
+----------------------
+
+# EXERCICI 7 USUARIS - FRONT END
+
+Dels elements de menú que tens creats decideix quins seran públics i quins no, és a dir, quan accedim a la pàgina web sense estar registrats, de manera pública, quina part serà visible per a tothom i quina no. 
+
+## Modificació de moduls - menu - Edició de permisos adherents a les categories desde Menu. 
+
+<div style="padding: 5%">
+    <img src="./Photos/Exercici7-AccesoRegistered.png" />
+</div>
+
+<div style="padding: 5%">
+    <img src="./Photos/Exercici7-MenuEsquerra.png" />
+</div>
+
+<div style="padding: 5%">
+    <img src="./Photos/Exercici7-MenuSuperiorPublic.png" />
+</div>
+
+## Acces Superuser
+
+<div style="padding: 5%">
+    <img src="./Photos/Exercici7-AccessSuperUser.png" />
+</div>
+
+## Acces Public No Registered
+
+<div style="padding: 5%">
+    <img src="./Photos/Exercici7-Public.png" />
+</div>
+
+
+Per exemple: Cultura, esports, política i societat visibles per a tothom; la resta
+no visibles per a tothom.
+
+# EXERCICI 8 USUARIS - FRONT END
+
+Fes el mateix que l’exercici anterior, però en aquest cas la part que has decidit que no sigui pública, és a dir, no visible per a tothom, ha de ser visible pels usuaris del front-end (Registrado Rodríguez, Autor Sánchez, Editor Gómez, Publicador Pérez)
+
+<div>
+    <img src="" />
+</div>
+
+<div>
+    <img src="" />
+</div>
+
+<div>
+    <img src="" />
+</div>
