@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Activitat 03: Exercici 3</title>
+     <style type="text/css">
+		*{ font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif}
+		.main{ margin:auto; border:1px solid #7C7A7A; width:40%; text-align:left; padding:30px; background:#85c587}
+	</style>
+	</head>
+
+<!-- 3. Escriviu un programa que escrigui la fruita favorita i que consti de dues pàgines.
+    A la primera pàgina es demana triar la fruita preferida mitjançant un botó ràdio.
+    A la segona pàgina es mostra el nom de la fruita. -->
+
+	<body bgcolor="#bed7c0">
+		<div class="main">
+		<h1>Fruita Favorita (Formulari)</h1>
+		<br>
+		<form action="echo_fruita.php" method="POST">
+			<fieldset>
+				<legend>Escull la fruita favorita:</legend>
+				<br/>
+				<input type="radio" name="fruites" value="Poma"/> Poma <br/>
+				<input type="radio" name="fruites" value="Pera"/> Pera <br/>	
+				<input type="radio" name="fruites" value="Pinya"/> Pinya <br/>
+				<input type="radio" name="fruites" value="Taronja"/> Taronja <br/>
+				<input type="radio" name="fruites" value="Maracuya"/> Maracuya <br/>
+				<input type="radio" name="fruites" value="Aranja"/> Aranja <br/>
+				<input type="radio" name="fruites" value="Kiwi"/> Kiwi <br/>
+				<input type="radio" name="fruites" value="Cireres"/> Cireres <br/>
+				<input type="radio" name="fruites" value="Mango"/> Mango <br/>
+				<input type="radio" name="fruites" value="Platan"/> Platan <br/>
+			</fieldset>
+			<br/>
+			<input type="submit" value="Enviar" name="enviar">
+            <input type="reset" value="Borrar" name="borrar">
+		</form>
+		</div>
+  </body>
+</html>
+
