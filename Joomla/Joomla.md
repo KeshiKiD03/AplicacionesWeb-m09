@@ -63,9 +63,21 @@ ELEMENTS DE MENU NO CATEGORIAS
 ENJAULARLO POR MENU Y NO CATEGORIA, SE PODRÍA TAMBIÉN POR CATEGORIAS
 
 
+# Ejercicio 3 Modulos
+
+![](./Photos/Exercici7-MenuEsquerra.png)
+
+![](./Photos/Exercici7-MenuSuperiorPublic.png)
+
+
+
+# Ejercicio 4 Idioma
+
 ----------------------------------------------
 
-# Exercici 1 - USUARIS FRONT-END
+# PR2 - GESTOR DE CONTINGUTS
+
+# Exercici 1 - USUARIS FRONT-END + Exercici 2 - BACKEND + Exercici 3
 
 ● Crea un usuari per a cada tipus que permet Joomla amb accés al FRONT-END.
 
@@ -76,6 +88,12 @@ joomlauser
 password: joomlauserjoomlauser
 
 Permisos **Registered**
+
+![](./Photos/Exercici1-joomlauser.png)
+
+![](./Photos/Exercicis1-2Joomla.png)
+
+
 
 ----------------------
 
