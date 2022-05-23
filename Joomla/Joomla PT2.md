@@ -21,7 +21,7 @@ https://ccp.cloudaccess.net/clientarea.php
 
 --> *BACKEND* --> https://keshi.joomla.com/administrator/index.php?catoken=6aa6f1e76aabf0e5c613f82a2265913985dcacf7be79a060e286d018ff8e29a4&ccp=1
 
-Maribel:JoomlaMaribel
+__Maribel:maribelmaribel__
 
 --> **Open Administrator**
 
@@ -62,10 +62,14 @@ ELEMENTS DE MENU NO CATEGORIAS
 
 ENJAULARLO POR MENU Y NO CATEGORIA, SE PODRÍA TAMBIÉN POR CATEGORIAS
 
+....
+
+Entregado PT1 en Moodle
 
 ----------------------------------------------
 
-# Exercici 1 - USUARIS FRONT-END
+# Exercici 1 - USUARIS FRONT-END + 2 Exercici 2 - USUARIS - BACK-END
+
 
 ● Crea un usuari per a cada tipus que permet Joomla amb accés al FRONT-END.
 
@@ -75,7 +79,19 @@ joomlauser
 
 password: joomlauserjoomlauser
 
-Permisos **Registered**
+![](./USERS1.PNG)
+
+![](./USERS2.PNG)
+
+![](./USERS3.PNG)
+
+![](./USERS4.PNG)
+
+
+# Exercici 3 - USUARIS - BACK-END
+
+● Intenta crear un superusuari des del compte d’administrador creat a l’exercici anterior. Adjunta
+captura de pantalla amb el resultat.
 
 ----------------------
 
