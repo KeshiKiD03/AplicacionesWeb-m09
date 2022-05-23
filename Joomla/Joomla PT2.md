@@ -66,10 +66,26 @@ ENJAULARLO POR MENU Y NO CATEGORIA, SE PODRÍA TAMBIÉN POR CATEGORIAS
 
 Entregado PT1 en Moodle
 
+# Ejercicio 3 Modulos
+
+![](./Photos/Exercici7-MenuEsquerra.png)
+
+![](./Photos/Exercici7-MenuSuperiorPublic.png)
+
+
+
+# Ejercicio 4 Idioma
+
 ----------------------------------------------
 
+<<<<<<< HEAD:Joomla/Joomla PT2.md
 # Exercici 1 - USUARIS FRONT-END + 2 Exercici 2 - USUARIS - BACK-END
 
+=======
+# PR2 - GESTOR DE CONTINGUTS
+
+# Exercici 1 - USUARIS FRONT-END + Exercici 2 - BACKEND + Exercici 3
+>>>>>>> 45aa11760fd50bb5436feb980c7debcec3116039:Joomla/Joomla.md
 
 ● Crea un usuari per a cada tipus que permet Joomla amb accés al FRONT-END.
 
@@ -92,6 +108,12 @@ password: joomlauserjoomlauser
 
 ● Intenta crear un superusuari des del compte d’administrador creat a l’exercici anterior. Adjunta
 captura de pantalla amb el resultat.
+
+![](./Photos/Exercici1-joomlauser.png)
+
+![](./Photos/Exercicis1-2Joomla.png)
+
+
 
 ----------------------
 
